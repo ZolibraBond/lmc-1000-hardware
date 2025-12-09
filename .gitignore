@@ -1,0 +1,26 @@
+# OS/Editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.bak
+*.log
+
+# KiCad caches and locks
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*-backups/
+fp-info-cache
+~*.lck
+
+# Generated output
+*.net
+*.xml
+*.csv
+*.tsv
+*.drl
+*.gbr
+*.pos
+*.zip
