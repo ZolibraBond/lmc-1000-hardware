@@ -516,6 +516,18 @@
 		)
 		(uuid "9ec40250-9c81-47f1-868e-a9fb84c1cbc7")
 	)
+	(text "Comments - This is an example of comments"
+		(exclude_from_sim no)
+		(at 178.816 162.814 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(color 0 0 194 1)
+			)
+			(justify left)
+		)
+		(uuid "b437609f-a346-422d-8e21-320d3a9d39ad")
+	)
 	(text "13"
 		(exclude_from_sim no)
 		(at 132.08 67.818 0)
@@ -529,6 +541,30 @@
 			(href "#13")
 		)
 		(uuid "bccace69-cc93-40d6-8a1f-cb01e7a90ead")
+	)
+	(text "Layout notes - This is an example of layout notes"
+		(exclude_from_sim no)
+		(at 178.816 160.528 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(color 0 255 255 1)
+			)
+			(justify left)
+		)
+		(uuid "c1bb139f-e94d-4ac6-838d-54cd07f28ce7")
+	)
+	(text "Design Notes - This is an example of design notes"
+		(exclude_from_sim no)
+		(at 178.816 158.242 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(color 255 255 0 1)
+			)
+			(justify left)
+		)
+		(uuid "c60feb2b-6ba6-4380-bff9-4cb77997aa27")
 	)
 	(text "STM - IO"
 		(exclude_from_sim no)

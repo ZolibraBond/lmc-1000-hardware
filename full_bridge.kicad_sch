@@ -16,4 +16,26 @@
 		)
 		(uuid "007624b5-e627-4c84-869d-d1f816642a4c")
 	)
+	(hierarchical_label "{MOTOR_A_POWER}"
+		(shape output)
+		(at 194.31 59.69 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "d6275d1f-dc4d-41d8-b631-cb01200690af")
+	)
+	(hierarchical_label "{MOTOR_B_POWER}"
+		(shape output)
+		(at 194.31 63.5 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "da29cef7-e577-4b4d-af81-998c67aa3d22")
+	)
 )

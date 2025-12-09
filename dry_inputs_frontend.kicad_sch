@@ -5,4 +5,26 @@
 	(uuid "b3324781-6d86-4fc4-b1fa-883c037d11dd")
 	(paper "A4")
 	(lib_symbols)
+	(hierarchical_label "{DRY_INPUTS_SIGNAL}"
+		(shape output)
+		(at 52.07 67.31 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "33b652e6-de84-43f9-8030-affa99ba21ae")
+	)
+	(hierarchical_label "{DRY_INPUTS}"
+		(shape input)
+		(at 228.6 67.31 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "8556488f-5b21-4571-a192-870827fcbcbc")
+	)
 )

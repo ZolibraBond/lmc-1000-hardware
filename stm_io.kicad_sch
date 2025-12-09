@@ -5,6 +5,17 @@
 	(uuid "0ad43ca9-2e61-42a0-a60e-384e5cb1ad3c")
 	(paper "A4")
 	(lib_symbols)
+	(hierarchical_label "{DRY_INPUTS_SIGNAL}"
+		(shape input)
+		(at 181.61 66.04 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "1f047f00-c3c9-4126-be73-4cc43d1c9e07")
+	)
 	(hierarchical_label "{MOTOR_PWM}"
 		(shape output)
 		(at 181.61 50.8 0)
@@ -27,6 +38,17 @@
 		)
 		(uuid "534ac451-9137-4c53-aee7-48b6c117dbb0")
 	)
+	(hierarchical_label "{LED_PWM}"
+		(shape output)
+		(at 181.61 58.42 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "633ffeee-612c-4554-ba22-c8a4cd7e575b")
+	)
 	(hierarchical_label "H_BEAT"
 		(shape input)
 		(at 45.72 62.23 180)
@@ -37,6 +59,17 @@
 			(justify right)
 		)
 		(uuid "6bdb27d3-2f9f-455f-be38-ffde0764ad4b")
+	)
+	(hierarchical_label "{TTL_CHANNELS_SIGNAL}"
+		(shape output)
+		(at 181.61 62.23 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "7179a92e-a741-4eac-b372-142ffbbdd4f0")
 	)
 	(hierarchical_label "{UART}"
 		(shape bidirectional)

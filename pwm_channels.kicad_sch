@@ -5,4 +5,48 @@
 	(uuid "de81bbee-282b-4d8a-b355-f47b6e38a698")
 	(paper "A4")
 	(lib_symbols)
+	(hierarchical_label "{LED_POWER_2}"
+		(shape output)
+		(at 220.98 55.88 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "434750ff-1b3e-4ba1-8f46-5a936a45e2d6")
+	)
+	(hierarchical_label "{LED_PWM}"
+		(shape input)
+		(at 45.72 83.82 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "5d6819f6-3878-465e-a55b-8e3af673177f")
+	)
+	(hierarchical_label "{LED_POWER_1}"
+		(shape output)
+		(at 220.98 53.34 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "6a47ff1b-75fa-483b-8b38-706afb5e84b2")
+	)
+	(hierarchical_label "{LED_POWER_3}"
+		(shape output)
+		(at 220.98 58.42 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "c81bbf07-4da6-47da-8441-bc43340ec08e")
+	)
 )

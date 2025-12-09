@@ -5,4 +5,26 @@
 	(uuid "7a338350-6ca4-4b5d-ad6a-327969e02868")
 	(paper "A4")
 	(lib_symbols)
+	(hierarchical_label "{HAL_MOTOR_B}"
+		(shape input)
+		(at 229.87 52.07 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "08a9d115-708e-48e3-8230-3e81901eb694")
+	)
+	(hierarchical_label "{HAL_MOTOR_A}"
+		(shape input)
+		(at 229.87 49.53 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "23a7806d-cbd5-41ba-b067-81e4766c4d59")
+	)
 )

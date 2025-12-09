@@ -5,4 +5,26 @@
 	(uuid "852f0dde-bd5f-4f7d-8724-401015df3d78")
 	(paper "A4")
 	(lib_symbols)
+	(hierarchical_label "{TTL_CHANNELS}"
+		(shape output)
+		(at 214.63 71.12 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "19bac831-92ad-468a-8e15-0e0e0cc9d6bd")
+	)
+	(hierarchical_label "{TTL_CHANNELS_SIGNAL}"
+		(shape input)
+		(at 67.31 71.12 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "1ebc26ae-f20c-4f7a-9abc-d1c034afc3e7")
+	)
 )

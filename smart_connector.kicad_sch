@@ -5,4 +5,103 @@
 	(uuid "605b3538-1bdb-4771-8547-2660f4f056f3")
 	(paper "A4")
 	(lib_symbols)
+	(hierarchical_label "{MOTOR_B_POWER}"
+		(shape input)
+		(at 73.66 53.34 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "2b4e3b82-b6af-484c-8208-a45dc09636bd")
+	)
+	(hierarchical_label "{LED_POWER_1}"
+		(shape input)
+		(at 72.39 95.25 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "2eb46bd7-ab1f-4858-876e-388814abc67f")
+	)
+	(hierarchical_label "{HAL_MOTOR_A}"
+		(shape output)
+		(at 73.66 60.96 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "40a1bb47-aeb3-4a9f-93e0-1a3dd4eea7a7")
+	)
+	(hierarchical_label "{LED_POWER_2}"
+		(shape input)
+		(at 72.39 97.79 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "4cae26d2-2cc7-4bc6-a913-94cbe8629af5")
+	)
+	(hierarchical_label "{LED_POWER_3}"
+		(shape input)
+		(at 72.39 100.33 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "60919eea-15f4-48cc-b247-1bf9a8aea189")
+	)
+	(hierarchical_label "{DRY_INPUTS}"
+		(shape input)
+		(at 72.39 111.76 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "7807e1d5-d15b-4d15-8f4e-0d2ada64aa2e")
+	)
+	(hierarchical_label "{MOTOR_A_POWER}"
+		(shape input)
+		(at 73.66 50.8 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "8f42d6a7-64a4-4ec2-b690-e886ff786796")
+	)
+	(hierarchical_label "{TTL_CHANNELS}"
+		(shape input)
+		(at 72.39 109.22 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "a35a8bce-23d9-4600-b242-cfcaadaf2c7d")
+	)
+	(hierarchical_label "{HAL_MOTOR_B}"
+		(shape output)
+		(at 73.66 58.42 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "bbbf156d-af5b-4807-95cd-114aaa027a05")
+	)
 )
