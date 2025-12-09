@@ -1,0 +1,1319 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4829929e-293a-49c2-b9e2-23f13088a0f9")
+	(paper "A4")
+	(lib_symbols
+		(symbol "power:+24V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+24V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+24V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+24V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+24V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(bus
+		(pts
+			(xy 179.07 60.96) (xy 179.07 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f3774ef-7441-4d25-9048-7ac3cab740d4")
+	)
+	(wire
+		(pts
+			(xy 104.14 127) (xy 96.52 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d0678e1-3a65-4087-b887-890646d15d42")
+	)
+	(bus
+		(pts
+			(xy 124.46 60.96) (xy 144.78 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20518d04-f4d4-45f2-ac1b-003a9a5f2307")
+	)
+	(bus
+		(pts
+			(xy 179.07 39.37) (xy 193.04 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "274e73c6-fdd3-42c3-8f80-4d73365c4026")
+	)
+	(bus
+		(pts
+			(xy 99.06 124.46) (xy 104.14 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41c9d53a-c211-4d9d-abcb-085573fe539c")
+	)
+	(wire
+		(pts
+			(xy 82.55 44.45) (xy 80.01 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f3d6474-b339-4edf-a300-25662faa3ec1")
+	)
+	(wire
+		(pts
+			(xy 82.55 33.02) (xy 80.01 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dba0a3b-2846-4caa-a531-f0a2cbcfa276")
+	)
+	(bus
+		(pts
+			(xy 104.14 106.68) (xy 99.06 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "962426c0-79f3-486c-814e-022037088cad")
+	)
+	(wire
+		(pts
+			(xy 41.91 38.1) (xy 59.69 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97b1d998-34bd-4a4f-9add-df6ee2e3df5e")
+	)
+	(wire
+		(pts
+			(xy 82.55 30.48) (xy 82.55 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b4e46cf-3efc-417d-a899-db419e4b6c0c")
+	)
+	(wire
+		(pts
+			(xy 124.46 66.04) (xy 144.78 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2dcaa49-b8d9-42d9-b2dc-6c73f14b99b1")
+	)
+	(wire
+		(pts
+			(xy 96.52 104.14) (xy 104.14 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaf02a37-b8eb-4dad-b24e-5e6b7316a122")
+	)
+	(wire
+		(pts
+			(xy 96.52 127) (xy 96.52 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c64a6054-48da-47b3-9754-aa3c5e8acffb")
+	)
+	(bus
+		(pts
+			(xy 163.83 60.96) (xy 179.07 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4a903b9-613b-40b1-b9a4-02b5170aeeb2")
+	)
+	(bus
+		(pts
+			(xy 99.06 106.68) (xy 99.06 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee281c52-a017-4ec2-96e6-6ae2a01b0dd7")
+	)
+	(wire
+		(pts
+			(xy 82.55 41.91) (xy 82.55 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f46409ae-f2b2-4dd5-815d-6889dbb116db")
+	)
+	(bus
+		(pts
+			(xy 124.46 63.5) (xy 144.78 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbb3e8d9-8765-46c4-ae13-8438827e4e70")
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 82.55 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bc09b3c-944e-4287-813f-e5e80dacf163")
+		(property "Reference" "#PWR0302"
+			(at 82.55 45.72 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 82.55 36.83 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 41.91 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 41.91 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 82.55 41.91 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "827b4279-36ee-4ac1-a34b-f49950472496")
+		)
+		(instances
+			(project ""
+				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34"
+					(reference "#PWR0302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 82.55 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5060532-1cae-4125-ae6e-0968dd2b5591")
+		(property "Reference" "#PWR0301"
+			(at 82.55 34.29 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 82.55 25.4 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 30.48 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 30.48 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 82.55 30.48 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "915f08fc-874c-4cca-97e2-f5e0055a2bca")
+		)
+		(instances
+			(project ""
+				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34"
+					(reference "#PWR0301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 59.69 29.21)
+		(size 20.32 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "25f4f4bb-ba37-4d24-9fb4-ef50d4a900b1")
+		(property "Sheetname" "Power Supplies"
+			(at 59.69 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_supplies.kicad_sch"
+			(at 59.69 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+3V3" output
+			(at 80.01 44.45 0)
+			(uuid "cfc2be2c-2fa2-4ff1-b44e-0fc4abfe8c96")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "+24V" output
+			(at 80.01 33.02 0)
+			(uuid "2797ba2d-81af-4283-bba9-7901e794bc13")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "POWER_INPUT" input
+			(at 59.69 38.1 180)
+			(uuid "ab4bf47b-5806-4853-b070-d1d3a4dd10cf")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "lmc"
+				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 55.88)
+		(size 20.32 54.61)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "41773ed0-4f1c-410e-b5b1-bad08a5af6f6")
+		(property "Sheetname" "ESP - IO"
+			(at 104.14 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp_io.kicad_sch"
+			(at 104.14 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{UART}" bidirectional
+			(at 124.46 63.5 0)
+			(uuid "a8095a1f-9a93-413b-9677-59542395af61")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "H_BEAT" output
+			(at 124.46 66.04 0)
+			(uuid "4ebc920b-cca9-4171-9ed5-e0d3abf0ec7c")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "{DFU}" bidirectional
+			(at 124.46 60.96 0)
+			(uuid "1af73b89-06c5-4405-8c2a-056ea497bdc1")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "RADIO_INT" output
+			(at 104.14 104.14 180)
+			(uuid "9a09a8b7-6955-4dbe-a40d-0e633e4f454a")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "{RADIO_SPI}" bidirectional
+			(at 104.14 106.68 180)
+			(uuid "629e6dfa-b670-4ea0-9c91-e67666a71d2c")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "lmc"
+				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 29.21)
+		(size 20.32 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5374d74e-a8ad-496c-8cef-c33a09ccd618")
+		(property "Sheetname" "ESP - Power"
+			(at 104.14 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp_power.kicad_sch"
+			(at 104.14 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "lmc"
+				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 121.92)
+		(size 20.32 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "595aa9ab-9857-4bbe-83d6-dd02670d6d3a")
+		(property "Sheetname" "Radio"
+			(at 104.14 121.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "radio.kicad_sch"
+			(at 104.14 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RADIO_INT" output
+			(at 104.14 127 180)
+			(uuid "eac0e28d-ef1f-408b-99bc-ae1d7db506ce")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "{RADIO_SPI}" bidirectional
+			(at 104.14 124.46 180)
+			(uuid "4d3fe292-9a99-4672-89ee-42ed86cfbb36")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "ANTENNA" output
+			(at 124.46 130.81 0)
+			(uuid "8d4711f7-2d7e-4f41-b46a-231c6e4ce41d")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "lmc"
+				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 144.78 29.21)
+		(size 19.05 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6557ddc5-0cf5-40fa-b242-36f455a19bb5")
+		(property "Sheetname" "STM - Power"
+			(at 144.78 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stm_power.kicad_sch"
+			(at 144.78 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "lmc"
+				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 29.21)
+		(size 20.32 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "704a2920-42a2-4134-99be-da9a1c79a083")
+		(property "Sheetname" "Power Connector"
+			(at 21.59 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_connector.kicad_sch"
+			(at 21.59 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "POWER_INPUT" output
+			(at 41.91 38.1 0)
+			(uuid "868f5fbc-8108-4d1e-9759-44499a7ffc81")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "lmc"
+				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 193.04 72.39)
+		(size 17.78 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7d29c820-8f8d-4e9f-b8e3-4727f94d7667")
+		(property "Sheetname" "Hal Input Frontend"
+			(at 193.04 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hal_input_frontend.kicad_sch"
+			(at 193.04 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "lmc"
+				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 247.65 73.66)
+		(size 13.97 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "97d892d8-a2b2-435a-b4c8-cbca9c298078")
+		(property "Sheetname" "Smart Connector"
+			(at 247.65 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "smart_connector.kicad_sch"
+			(at 247.65 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "lmc"
+				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 193.04 100.33)
+		(size 17.78 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a11fa67e-26bd-4e7e-be77-e56541e95d03")
+		(property "Sheetname" "PWM Channels"
+			(at 193.04 99.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pwm_channels.kicad_sch"
+			(at 193.04 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "lmc"
+				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 193.04 25.4)
+		(size 17.78 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b17df6b5-2319-4e84-a7f7-49f2ff54e606")
+		(property "Sheetname" "Full Bridge"
+			(at 193.04 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "full_bridge.kicad_sch"
+			(at 193.04 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{MOTOR_PWM}" input
+			(at 193.04 39.37 180)
+			(uuid "cfed1f40-fcab-4bf3-bad3-9d6ac1a7beae")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "lmc"
+				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 193.04 121.92)
+		(size 17.78 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d1d77b66-6a00-4c0c-88c7-3b553a1f6635")
+		(property "Sheetname" "TTL Channels Buffer"
+			(at 193.04 121.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ttl_channels_buffer.kicad_sch"
+			(at 193.04 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "lmc"
+				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 193.04 144.78)
+		(size 17.78 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d7405cf3-e173-47e5-ab91-67f08f39f685")
+		(property "Sheetname" "Dry Inputs Frontend"
+			(at 193.04 144.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dry_inputs_frontend.kicad_sch"
+			(at 193.04 163.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "lmc"
+				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 64.77)
+		(size 12.7 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e68f89bf-469a-4886-98f8-258b26d47d33")
+		(property "Sheetname" "User Buttons"
+			(at 21.59 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "user_buttons.kicad_sch"
+			(at 21.59 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "lmc"
+				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 144.78 55.88)
+		(size 19.05 54.61)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f54ea273-ed17-41d2-8602-b12668f35983")
+		(property "Sheetname" "STM - IO"
+			(at 144.78 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stm_io.kicad_sch"
+			(at 144.78 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{UART}" bidirectional
+			(at 144.78 63.5 180)
+			(uuid "fbb1a2ce-0754-450f-8625-4b006ebdc520")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "H_BEAT" input
+			(at 144.78 66.04 180)
+			(uuid "80714de5-98ee-4d44-a085-fe7ebc0e0dd3")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "{DFU}" bidirectional
+			(at 144.78 60.96 180)
+			(uuid "25523e16-ebd6-4b9d-a08a-910d6ae60fa2")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "{MOTOR_PWM}" output
+			(at 163.83 60.96 0)
+			(uuid "5977ce08-3758-4d5b-a625-491c167e0688")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "lmc"
+				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34"
+					(page "10")
+				)
+			)
+		)
+	)
+)

@@ -1,0 +1,52 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0ad43ca9-2e61-42a0-a60e-384e5cb1ad3c")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "{MOTOR_PWM}"
+		(shape output)
+		(at 181.61 50.8 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "2d457ddf-2341-4a7d-b056-9305e3b4ae54")
+	)
+	(hierarchical_label "{DFU}"
+		(shape bidirectional)
+		(at 45.72 54.61 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "534ac451-9137-4c53-aee7-48b6c117dbb0")
+	)
+	(hierarchical_label "H_BEAT"
+		(shape input)
+		(at 45.72 62.23 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "6bdb27d3-2f9f-455f-be38-ffde0764ad4b")
+	)
+	(hierarchical_label "{UART}"
+		(shape bidirectional)
+		(at 45.72 58.42 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "b1afdf26-8168-459d-a326-6ef772566b7d")
+	)
+)

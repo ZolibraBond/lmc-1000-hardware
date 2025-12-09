@@ -1,0 +1,41 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b0e1fd82-a423-426f-9886-c8602a348e4d")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "+24V"
+		(shape output)
+		(at 199.39 53.34 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "104400c1-886f-46b5-8164-7f8ed5fc1d0f")
+	)
+	(hierarchical_label "POWER_INPUT"
+		(shape input)
+		(at 64.77 53.34 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "26e0210f-d6df-4a1d-af07-09c5bbc0f6ba")
+	)
+	(hierarchical_label "+3V3"
+		(shape output)
+		(at 199.39 57.15 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "cd650db2-e474-44f6-8594-43f39ae23097")
+	)
+)

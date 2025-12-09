@@ -1,0 +1,41 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "309a4b48-7785-41a6-b9d3-496b4c07ee3c")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "{RADIO_SPI}"
+		(shape bidirectional)
+		(at 63.5 54.61 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "35e05897-9bf8-4558-afa6-4c921dfc6b87")
+	)
+	(hierarchical_label "ANTENNA"
+		(shape output)
+		(at 219.71 74.93 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "4dfcc105-ddbf-4d2b-a891-f0891002959c")
+	)
+	(hierarchical_label "RADIO_INT"
+		(shape output)
+		(at 219.71 54.61 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "af7f543b-ca82-413d-b274-b78238410dbb")
+	)
+)

@@ -1,0 +1,63 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "599154be-6ff7-44bc-a855-eb69d46eaf3b")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "RADIO_INT"
+		(shape output)
+		(at 46.99 116.84 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "4fa0aa8b-367f-4634-896d-2ff3499d9ad2")
+	)
+	(hierarchical_label "{RADIO_SPI}"
+		(shape bidirectional)
+		(at 46.99 114.3 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "74348bdf-80de-4214-b545-5ca0363442b1")
+	)
+	(hierarchical_label "{DFU}"
+		(shape bidirectional)
+		(at 227.33 67.31 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "771f4b5f-b06c-4d51-9c4a-324cd51d7720")
+	)
+	(hierarchical_label "{UART}"
+		(shape bidirectional)
+		(at 227.33 71.12 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "c28d0040-db90-44d9-8359-03aaef88b511")
+	)
+	(hierarchical_label "H_BEAT"
+		(shape output)
+		(at 227.33 74.93 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "f8cf6497-8a66-4919-9e71-4909b9f1c14c")
+	)
+)

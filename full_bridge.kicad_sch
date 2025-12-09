@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "756d548c-8143-4a58-8235-e7b564946471")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "{MOTOR_PWM}"
+		(shape input)
+		(at 59.69 59.69 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "007624b5-e627-4c84-869d-d1f816642a4c")
+	)
+)

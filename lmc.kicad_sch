@@ -1,0 +1,779 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "366b6b63-f50f-4704-98b3-a25deb9b26fa")
+	(paper "A4")
+	(title_block
+		(title "Linear Motor Controller")
+		(date "2025-12-08")
+		(rev "0.1")
+		(company "Olibra LLC")
+	)
+	(lib_symbols)
+	(text "Dry Inputs Frontend"
+		(exclude_from_sim no)
+		(at 142.24 73.914 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#14")
+		)
+		(uuid "0793dc72-73de-4cbe-b339-4413af97e863")
+	)
+	(text "Cover Page"
+		(exclude_from_sim no)
+		(at 43.18 55.626 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#1")
+		)
+		(uuid "0d6385de-25a2-411d-a4ad-f4ed6a299402")
+	)
+	(text "ESP - Power"
+		(exclude_from_sim no)
+		(at 43.18 92.202 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#7")
+		)
+		(uuid "0f546bea-65ff-41fa-9153-58cd19e31304")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 33.02 86.106 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify right bottom)
+			(href "#6")
+		)
+		(uuid "10420672-5a45-488e-97e1-c84af7a7f1fa")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 33.02 104.394 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify right bottom)
+			(href "#9")
+		)
+		(uuid "11a7c875-915f-4be4-b570-7488c88587a8")
+	)
+	(text "ESP - IO"
+		(exclude_from_sim no)
+		(at 43.18 98.552 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#8")
+		)
+		(uuid "1214c011-e3d7-47a6-9ec4-7c73988f2e56")
+	)
+	(text "19"
+		(exclude_from_sim no)
+		(at 132.08 104.394 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify right bottom)
+			(href "#19")
+		)
+		(uuid "200be0c2-430b-48b3-9dbc-12bca19429e6")
+	)
+	(text "3"
+		(exclude_from_sim no)
+		(at 33.02 67.818 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify right bottom)
+			(href "#3")
+		)
+		(uuid "22dad909-938f-4920-93ac-0e5b606f3f7c")
+	)
+	(text "7"
+		(exclude_from_sim no)
+		(at 33.02 92.202 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify right bottom)
+			(href "#7")
+		)
+		(uuid "256d894f-7e2d-44db-b181-1d14841cde58")
+	)
+	(text "Power Supplies"
+		(exclude_from_sim no)
+		(at 43.18 73.914 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#4")
+		)
+		(uuid "2678f96b-6668-40e8-abfb-f324165428a2")
+	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 33.02 73.914 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify right bottom)
+			(href "#4")
+		)
+		(uuid "29dfbfc6-45a9-43c4-97a2-a2b70aa28c32")
+	)
+	(text "20"
+		(exclude_from_sim no)
+		(at 132.08 110.236 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify right bottom)
+			(href "#20")
+		)
+		(uuid "2eec34e8-73db-4a62-826c-dccdc0122000")
+	)
+	(text "Power Connector"
+		(exclude_from_sim no)
+		(at 43.18 80.01 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#5")
+		)
+		(uuid "2fea5b0e-6747-462c-adca-adbb96bdf050")
+	)
+	(text "..........................................."
+		(exclude_from_sim no)
+		(at 142.24 110.236 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#20")
+		)
+		(uuid "349518a1-11ff-412a-b1a0-bb44abf4eaa3")
+	)
+	(text "Linear Motor Controller\n"
+		(exclude_from_sim no)
+		(at 18.034 31.496 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 10.16 10.16)
+				(thickness 1)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "359bfb52-5932-43f9-947d-0419cf522d07")
+	)
+	(text "Page"
+		(exclude_from_sim no)
+		(at 132.08 45.72 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "38f24aeb-8eae-4ab9-b853-94c6b644fabf")
+	)
+	(text "Radio"
+		(exclude_from_sim no)
+		(at 142.24 55.626 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#11")
+		)
+		(uuid "3be9f857-5bf6-4c73-83b0-7c774ab444e0")
+	)
+	(text "..........................................."
+		(exclude_from_sim no)
+		(at 142.24 104.394 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#19")
+		)
+		(uuid "46a0c2f5-b79e-4f6f-8a53-f5a03964c7d3")
+	)
+	(text "PWM Channels"
+		(exclude_from_sim no)
+		(at 142.24 61.722 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#12")
+		)
+		(uuid "4a8b065c-07c3-4057-9771-c9f745d1dc7f")
+	)
+	(text "5"
+		(exclude_from_sim no)
+		(at 33.02 80.01 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify right bottom)
+			(href "#5")
+		)
+		(uuid "4f180c35-1081-4ad0-b781-675c14c4d705")
+	)
+	(text "18"
+		(exclude_from_sim no)
+		(at 132.08 98.552 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify right bottom)
+			(href "#18")
+		)
+		(uuid "59b4ac80-9de5-4acd-a3c5-f9fe9c1d8f40")
+	)
+	(text "14"
+		(exclude_from_sim no)
+		(at 132.08 73.914 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify right bottom)
+			(href "#14")
+		)
+		(uuid "59f6cd73-9fc8-42f9-a748-bf0a0331a0b5")
+	)
+	(text "..........................................."
+		(exclude_from_sim no)
+		(at 142.24 98.552 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#18")
+		)
+		(uuid "5af51c17-164d-4d95-878a-ebe1695e33e5")
+	)
+	(text "Index"
+		(exclude_from_sim no)
+		(at 142.24 45.72 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "60a9a2b3-b864-4509-ba99-2f99cd8cf108")
+	)
+	(text "17"
+		(exclude_from_sim no)
+		(at 132.08 92.202 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify right bottom)
+			(href "#17")
+		)
+		(uuid "64e723fe-e06b-47be-bc78-8a83f252bdc3")
+	)
+	(text "Block Diagram"
+		(exclude_from_sim no)
+		(at 43.18 61.722 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#2")
+		)
+		(uuid "69f9f113-8582-4d09-9184-801e4ea3fb41")
+	)
+	(text "Full Bridge"
+		(exclude_from_sim no)
+		(at 142.24 86.106 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#16")
+		)
+		(uuid "6abe4486-9606-4f8e-bd66-0ef63f766470")
+	)
+	(text "TTL Channels Buffer"
+		(exclude_from_sim no)
+		(at 142.24 67.818 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#13")
+		)
+		(uuid "814a1c60-aa7c-4fb0-a12b-f3ba6d72c38d")
+	)
+	(text "STM - Power"
+		(exclude_from_sim no)
+		(at 43.18 104.394 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#9")
+		)
+		(uuid "82c4aacf-4943-4b8d-b952-c430b9cb66ad")
+	)
+	(text "11"
+		(exclude_from_sim no)
+		(at 132.08 55.626 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify right bottom)
+			(href "#11")
+		)
+		(uuid "8ae41dc6-5e7f-4923-8dc5-b199fe3e5af8")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 33.02 55.626 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify right bottom)
+			(href "#1")
+		)
+		(uuid "8ba2e019-5a46-446d-9f43-72bce3705d8d")
+	)
+	(text "Smart Connector"
+		(exclude_from_sim no)
+		(at 142.24 92.202 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#17")
+		)
+		(uuid "8cfaf8f1-5160-4352-b7bb-7e874f7e9a6c")
+	)
+	(text "12"
+		(exclude_from_sim no)
+		(at 132.08 61.722 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify right bottom)
+			(href "#12")
+		)
+		(uuid "911aebb5-bfb3-42b9-bdfb-6264f737f583")
+	)
+	(text "User Buttons"
+		(exclude_from_sim no)
+		(at 43.18 86.106 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#6")
+		)
+		(uuid "99463fac-ec08-4412-9183-77dcbb39da75")
+	)
+	(text "Hal Input Frontend"
+		(exclude_from_sim no)
+		(at 142.24 80.01 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#15")
+		)
+		(uuid "99679526-0435-496e-9556-d81a598cde19")
+	)
+	(text "Index"
+		(exclude_from_sim no)
+		(at 43.18 45.72 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ec40250-9c81-47f1-868e-a9fb84c1cbc7")
+	)
+	(text "13"
+		(exclude_from_sim no)
+		(at 132.08 67.818 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify right bottom)
+			(href "#13")
+		)
+		(uuid "bccace69-cc93-40d6-8a1f-cb01e7a90ead")
+	)
+	(text "STM - IO"
+		(exclude_from_sim no)
+		(at 43.18 110.236 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#10")
+		)
+		(uuid "d2a89c99-4361-45e3-a558-b14078ea0896")
+	)
+	(text "10"
+		(exclude_from_sim no)
+		(at 33.02 110.236 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify right bottom)
+			(href "#10")
+		)
+		(uuid "da03691c-3c12-42ea-bf58-86900cc22e8b")
+	)
+	(text "Project Architecture"
+		(exclude_from_sim no)
+		(at 43.18 67.818 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#3")
+		)
+		(uuid "e789ca03-3916-4111-96bd-e4817d7f21db")
+	)
+	(text "Page"
+		(exclude_from_sim no)
+		(at 33.02 45.72 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "ecad8308-f419-4652-96d9-91f73c094a75")
+	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 33.02 61.722 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify right bottom)
+			(href "#2")
+		)
+		(uuid "f058a556-3249-4fde-8b2d-6aeb45b6ef7c")
+	)
+	(text "16"
+		(exclude_from_sim no)
+		(at 132.08 86.106 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify right bottom)
+			(href "#16")
+		)
+		(uuid "f7a8c9c4-665a-4221-b091-bb7e39d64a93")
+	)
+	(text "8"
+		(exclude_from_sim no)
+		(at 33.02 98.552 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify right bottom)
+			(href "#8")
+		)
+		(uuid "fe856e90-f011-4890-9270-9a4929400d86")
+	)
+	(text "15"
+		(exclude_from_sim no)
+		(at 132.08 80.01 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify right bottom)
+			(href "#15")
+		)
+		(uuid "ff298a6e-4cf1-4033-80f6-62941ac7abaa")
+	)
+	(polyline
+		(pts
+			(xy 15.24 48.26) (xy 33.02 48.26)
+		)
+		(stroke
+			(width 1)
+			(type dot)
+			(color 0 0 0 1)
+		)
+		(uuid "17426360-2411-451f-b38f-daac0b66ccdc")
+	)
+	(polyline
+		(pts
+			(xy 142.24 48.26) (xy 203.2 48.26)
+		)
+		(stroke
+			(width 1)
+			(type dot)
+			(color 0 0 0 1)
+		)
+		(uuid "2904cd92-839f-44a5-bd53-38ee61e4e4f8")
+	)
+	(polyline
+		(pts
+			(xy 43.18 48.26) (xy 104.14 48.26)
+		)
+		(stroke
+			(width 1)
+			(type dot)
+			(color 0 0 0 1)
+		)
+		(uuid "8aecd25c-4d81-4b8a-bbec-7544e35bfae0")
+	)
+	(polyline
+		(pts
+			(xy 114.3 48.26) (xy 132.08 48.26)
+		)
+		(stroke
+			(width 1)
+			(type dot)
+			(color 0 0 0 1)
+		)
+		(uuid "fe4187f2-2fee-4e35-af7e-8a4db2aa1ddd")
+	)
+	(sheet
+		(at 224.79 203.2)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d13c0999-8867-4247-acd6-8f114b5be873")
+		(property "Sheetname" "Block Diagram"
+			(at 224.79 202.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "block_diagram.kicad_sch"
+			(at 224.79 207.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "lmc"
+				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 255.27 203.2)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eae2f1c3-9849-4004-ace3-e7424e3cdc34")
+		(property "Sheetname" "Project Architecture"
+			(at 255.27 202.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "project_architecture.kicad_sch"
+			(at 255.27 207.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "lmc"
+				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

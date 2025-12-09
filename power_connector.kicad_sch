@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5a8ba5f7-4f84-46cb-8b56-dfde18eb58d2")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "POWER_INPUT"
+		(shape bidirectional)
+		(at 203.2 44.45 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "0a2388a4-8be8-4ba7-b3b5-eb8be696dcba")
+	)
+)
