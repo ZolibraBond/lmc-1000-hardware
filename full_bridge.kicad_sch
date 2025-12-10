@@ -4,10 +4,196 @@
 	(generator_version "9.0")
 	(uuid "756d548c-8143-4a58-8235-e7b564946471")
 	(paper "A4")
-	(lib_symbols)
-	(hierarchical_label "{MOTOR_PWM}"
+	(lib_symbols
+		(symbol "power:+24V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+24V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+24V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+24V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+24V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 81.28 90.17) (xy 92.71 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18cf8720-8d7d-40c9-a779-f1663fa84703")
+	)
+	(wire
+		(pts
+			(xy 81.28 45.72) (xy 81.28 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44d3896f-7583-4bed-bed6-2bcddda38bf1")
+	)
+	(wire
+		(pts
+			(xy 116.84 48.26) (xy 144.78 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b4a8767-7389-4c0d-ab84-f2d26238cf17")
+	)
+	(wire
+		(pts
+			(xy 116.84 90.17) (xy 144.78 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "718f4110-3223-44ed-b8f2-156ee30ffcb1")
+	)
+	(wire
+		(pts
+			(xy 81.28 48.26) (xy 92.71 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d41e3379-9a07-4e22-8198-24fa63338bcc")
+	)
+	(wire
+		(pts
+			(xy 81.28 88.9) (xy 81.28 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffba021d-575e-46dd-9bb1-24b2665c4041")
+	)
+	(hierarchical_label "{MOTOR_ENABLE}"
 		(shape input)
-		(at 59.69 59.69 180)
+		(at 130.81 62.23 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -15,6 +201,72 @@
 			(justify right)
 		)
 		(uuid "007624b5-e627-4c84-869d-d1f816642a4c")
+	)
+	(hierarchical_label "{MOTOR_PWM}"
+		(shape input)
+		(at 130.81 64.77 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "15541168-3c8f-425c-963e-0d10be192cf1")
+	)
+	(hierarchical_label "{MOTOR_DIR}"
+		(shape input)
+		(at 130.81 67.31 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "33b57a8a-a3d0-4154-8815-c5732fbdcf1a")
+	)
+	(hierarchical_label "{MOTOR_DIR}"
+		(shape input)
+		(at 130.81 111.76 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "9b54391f-fbc8-47ea-8837-3e3e2dbb0105")
+	)
+	(hierarchical_label "{MOTOR_ENABLE}"
+		(shape input)
+		(at 130.81 106.68 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "bd86d50b-74c5-43d4-8f30-4aab942a2661")
+	)
+	(hierarchical_label "{MOTOR_PWM}"
+		(shape input)
+		(at 130.81 109.22 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "ca1ce8a3-5246-4613-88a9-ac5fd84ab9b0")
+	)
+	(hierarchical_label "{MOTOR_CURRENT}"
+		(shape output)
+		(at 81.28 50.8 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "d3e48d51-3edd-4421-9c79-2fc860275021")
 	)
 	(hierarchical_label "{MOTOR_A_POWER}"
 		(shape output)
@@ -37,5 +289,485 @@
 			(justify left)
 		)
 		(uuid "da29cef7-e577-4b4d-af81-998c67aa3d22")
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 81.28 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b2f7021-3440-413f-9d3c-ac28d8c230b3")
+		(property "Reference" "#PWR01602"
+			(at 81.28 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 81.28 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62b8b9cb-07a4-4ae1-b1c4-3c386a023953")
+		)
+		(instances
+			(project "lmc"
+				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34/b17df6b5-2319-4e84-a7f7-49f2ff54e606"
+					(reference "#PWR01602")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 81.28 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b838aefc-691d-446c-9e79-7a7cb332fcbe")
+		(property "Reference" "#PWR01601"
+			(at 81.28 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 81.28 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 81.28 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c175446-718c-4d26-93bf-7936b1125c71")
+		)
+		(instances
+			(project ""
+				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34/b17df6b5-2319-4e84-a7f7-49f2ff54e606"
+					(reference "#PWR01601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 144.78 43.18)
+		(size 26.67 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3584ebf0-8f62-4171-86f6-e82aac547e60")
+		(property "Sheetname" "Motor A Full Bridge"
+			(at 144.78 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor_full_bridge.kicad_sch"
+			(at 144.78 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIR" input
+			(at 144.78 62.23 180)
+			(uuid "7a548691-1d47-4e8b-80e7-315e79e6d884")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "ENABLE" input
+			(at 144.78 57.15 180)
+			(uuid "522ac8cf-a1eb-4c50-a382-4cdaf0517681")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "POWER_INPUT" input
+			(at 144.78 48.26 180)
+			(uuid "280cb8db-7395-46c6-846f-dfcade046a6a")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM" input
+			(at 144.78 59.69 180)
+			(uuid "5fd7daf6-a452-4aea-8251-9d84a60c3ae2")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOTOR+" output
+			(at 171.45 57.15 0)
+			(uuid "9343d4f9-3c8b-4f6e-b12f-c9cf183b2005")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOTOR-" output
+			(at 171.45 59.69 0)
+			(uuid "5d985635-820c-42e9-8c38-8a3b764f1532")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "lmc"
+				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34/b17df6b5-2319-4e84-a7f7-49f2ff54e606"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 144.78 85.09)
+		(size 26.67 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "84a976a4-5618-4ba2-bd61-c39c205dd9e7")
+		(property "Sheetname" "Motor B Full Bridge"
+			(at 144.78 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor_full_bridge.kicad_sch"
+			(at 144.78 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "POWER_INPUT" input
+			(at 144.78 90.17 180)
+			(uuid "2c8bd16d-cac6-4de8-aa30-a3c0a6812603")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIR" input
+			(at 144.78 104.14 180)
+			(uuid "7df97be5-31f0-47cc-89e2-ebc5316e0f05")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "ENABLE" input
+			(at 144.78 99.06 180)
+			(uuid "a2bd3c4c-1d3f-46d4-9a42-d698ae0a8c14")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM" input
+			(at 144.78 101.6 180)
+			(uuid "ad9180d4-8f28-4989-a299-16777544ab90")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOTOR+" output
+			(at 171.45 99.06 0)
+			(uuid "1d323de5-d053-4f0d-b669-771d36a5888a")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOTOR-" output
+			(at 171.45 101.6 0)
+			(uuid "b42a5577-f292-4a43-8e5b-4d1bcc1ef44d")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "lmc"
+				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34/b17df6b5-2319-4e84-a7f7-49f2ff54e606"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 92.71 43.18)
+		(size 24.13 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c43479bc-dda5-48e4-a5cb-b4f4de8c31f1")
+		(property "Sheetname" "Motor A Current Sensor"
+			(at 92.71 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor_current_sensor.kicad_sch"
+			(at 92.456 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "IN" input
+			(at 92.71 48.26 180)
+			(uuid "c4aafb47-d4e9-4fef-8426-60124091cb7f")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT" input
+			(at 116.84 48.26 0)
+			(uuid "e68eed0d-20da-44a2-8031-72adda6e2ceb")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "CURRENT" output
+			(at 92.71 50.8 180)
+			(uuid "26cf7468-9fbc-4957-8b15-810997b9cb38")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "lmc"
+				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34/b17df6b5-2319-4e84-a7f7-49f2ff54e606"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 92.71 85.09)
+		(size 24.13 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e6283d7e-eaff-4a50-9529-c365853346bd")
+		(property "Sheetname" "Motor B Current Sensor"
+			(at 92.71 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor_current_sensor.kicad_sch"
+			(at 92.456 94.742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "IN" input
+			(at 92.71 90.17 180)
+			(uuid "ef708758-4e1a-40d6-8ee5-a0ce21eb995f")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT" input
+			(at 116.84 90.17 0)
+			(uuid "6f3a824b-a00a-41e3-bc7b-c0d66831932a")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "CURRENT" output
+			(at 92.71 92.71 180)
+			(uuid "46789f40-1004-4bfe-9f4e-ecc5da9eab61")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "lmc"
+				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34/b17df6b5-2319-4e84-a7f7-49f2ff54e606"
+					(page "21")
+				)
+			)
+		)
 	)
 )

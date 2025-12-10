@@ -475,6 +475,26 @@
     [
       "97d892d8-a2b2-435a-b4c8-cbca9c298078",
       "Smart Connector"
+    ],
+    [
+      "3584ebf0-8f62-4171-86f6-e82aac547e60",
+      "Motor A Full Bridge"
+    ],
+    [
+      "84a976a4-5618-4ba2-bd61-c39c205dd9e7",
+      "Motor B Full Bridge"
+    ],
+    [
+      "c43479bc-dda5-48e4-a5cb-b4f4de8c31f1",
+      "Motor A Current Sensor"
+    ],
+    [
+      "e6283d7e-eaff-4a50-9529-c365853346bd",
+      "Motor B Current Sensor"
+    ],
+    [
+      "c83ce7c2-da01-4928-9c73-c6cac4cd947a",
+      "Bus Sensing"
     ]
   ],
   "text_variables": {}

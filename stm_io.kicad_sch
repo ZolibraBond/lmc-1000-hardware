@@ -16,9 +16,9 @@
 		)
 		(uuid "1f047f00-c3c9-4126-be73-4cc43d1c9e07")
 	)
-	(hierarchical_label "{MOTOR_PWM}"
+	(hierarchical_label "{MOTOR_ENABLE}"
 		(shape output)
-		(at 181.61 50.8 0)
+		(at 181.61 44.45 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -26,6 +26,17 @@
 			(justify left)
 		)
 		(uuid "2d457ddf-2341-4a7d-b056-9305e3b4ae54")
+	)
+	(hierarchical_label "{MOTOR_DIR}"
+		(shape output)
+		(at 181.61 39.37 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "31bf5468-6b19-4be9-ad7a-67ecc34a1c13")
 	)
 	(hierarchical_label "{DFU}"
 		(shape bidirectional)
@@ -37,6 +48,17 @@
 			(justify right)
 		)
 		(uuid "534ac451-9137-4c53-aee7-48b6c117dbb0")
+	)
+	(hierarchical_label "{BUS_SENSING_ADC}"
+		(shape input)
+		(at 181.61 33.02 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "54b5fbb4-033f-42ac-88e9-3fb2972f77a6")
 	)
 	(hierarchical_label "{LED_PWM}"
 		(shape output)
@@ -71,6 +93,17 @@
 		)
 		(uuid "7179a92e-a741-4eac-b372-142ffbbdd4f0")
 	)
+	(hierarchical_label "{MOTOR_PWM}"
+		(shape output)
+		(at 181.61 41.91 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "adf8736d-8424-4e9a-b210-4e459c41e131")
+	)
 	(hierarchical_label "{UART}"
 		(shape bidirectional)
 		(at 45.72 58.42 180)
@@ -81,5 +114,16 @@
 			(justify right)
 		)
 		(uuid "b1afdf26-8168-459d-a326-6ef772566b7d")
+	)
+	(hierarchical_label "{MOTOR_CURRENT}"
+		(shape input)
+		(at 181.61 48.26 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "e79f43f2-3872-4000-94a2-cef9d18e9093")
 	)
 )

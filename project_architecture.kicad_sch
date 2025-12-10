@@ -304,6 +304,18 @@
 		)
 		(uuid "95941b2b-a464-468e-8a4e-05bcae856bb1")
 	)
+	(text "Motor A 24V 15A\nMotor B 24V 15A"
+		(exclude_from_sim no)
+		(at 211.582 42.164 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(color 0 0 194 1)
+			)
+			(justify left)
+		)
+		(uuid "ab6803f7-2026-4f9e-9fd5-43284febab14")
+	)
 	(text "15A Output"
 		(exclude_from_sim no)
 		(at 237.744 76.454 0)
@@ -338,7 +350,7 @@
 	)
 	(bus
 		(pts
-			(xy 179.07 60.96) (xy 179.07 39.37)
+			(xy 179.07 80.01) (xy 179.07 52.07)
 		)
 		(stroke
 			(width 0)
@@ -368,7 +380,7 @@
 	)
 	(bus
 		(pts
-			(xy 232.41 77.47) (xy 247.65 77.47)
+			(xy 233.68 77.47) (xy 247.65 77.47)
 		)
 		(stroke
 			(width 0.381)
@@ -420,13 +432,53 @@
 	)
 	(bus
 		(pts
-			(xy 179.07 39.37) (xy 193.04 39.37)
+			(xy 186.69 59.69) (xy 191.77 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23205205-5ac7-41a0-881e-baa293001251")
+	)
+	(bus
+		(pts
+			(xy 179.07 52.07) (xy 191.77 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "274e73c6-fdd3-42c3-8f80-4d73365c4026")
+	)
+	(bus
+		(pts
+			(xy 191.77 49.53) (xy 176.53 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c6bee23-e353-4e83-8f83-5a2cc9acb626")
+	)
+	(wire
+		(pts
+			(xy 38.1 73.66) (xy 104.14 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e02314b-083b-4c95-8766-1289e4eb2882")
+	)
+	(bus
+		(pts
+			(xy 181.61 82.55) (xy 181.61 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39f716d7-3c4e-4e60-a840-95edb78bfcd8")
 	)
 	(bus
 		(pts
@@ -460,7 +512,7 @@
 	)
 	(bus
 		(pts
-			(xy 229.87 80.01) (xy 247.65 80.01)
+			(xy 231.14 80.01) (xy 247.65 80.01)
 		)
 		(stroke
 			(width 0.381)
@@ -468,6 +520,36 @@
 			(color 255 153 0 1)
 		)
 		(uuid "50400e4d-7c25-48c8-9f9a-801dada87840")
+	)
+	(bus
+		(pts
+			(xy 176.53 77.47) (xy 163.83 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f5b369a-3fce-4bde-b25c-31c020bf16f4")
+	)
+	(bus
+		(pts
+			(xy 186.69 87.63) (xy 186.69 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "712d8c4c-b828-461e-b288-3d49937213a9")
+	)
+	(bus
+		(pts
+			(xy 163.83 87.63) (xy 186.69 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75b5dae3-e579-4d32-a51a-f67c2baa945d")
 	)
 	(bus
 		(pts
@@ -534,6 +616,16 @@
 	)
 	(bus
 		(pts
+			(xy 181.61 54.61) (xy 191.77 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8857f9f0-558f-4aa3-82c7-3d2419c18385")
+	)
+	(bus
+		(pts
 			(xy 241.3 118.11) (xy 241.3 149.86)
 		)
 		(stroke
@@ -593,6 +685,16 @@
 		)
 		(uuid "97b1d998-34bd-4a4f-9add-df6ee2e3df5e")
 	)
+	(bus
+		(pts
+			(xy 163.83 82.55) (xy 181.61 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aef36af-bd75-4f19-92d2-e1b1f2f328b0")
+	)
 	(wire
 		(pts
 			(xy 82.55 30.48) (xy 82.55 33.02)
@@ -605,7 +707,7 @@
 	)
 	(bus
 		(pts
-			(xy 229.87 30.48) (xy 229.87 80.01)
+			(xy 231.14 39.37) (xy 231.14 80.01)
 		)
 		(stroke
 			(width 0.381)
@@ -657,6 +759,16 @@
 	)
 	(bus
 		(pts
+			(xy 171.45 72.39) (xy 171.45 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aefcf275-03a5-46dc-bcf7-5d053a1d9b71")
+	)
+	(bus
+		(pts
 			(xy 237.49 135.89) (xy 210.82 135.89)
 		)
 		(stroke
@@ -667,7 +779,7 @@
 	)
 	(bus
 		(pts
-			(xy 210.82 27.94) (xy 232.41 27.94)
+			(xy 210.82 36.83) (xy 233.68 36.83)
 		)
 		(stroke
 			(width 0.381)
@@ -675,6 +787,16 @@
 			(color 255 153 0 1)
 		)
 		(uuid "bf3f38fd-afcb-4866-8042-3c0296215e01")
+	)
+	(bus
+		(pts
+			(xy 176.53 49.53) (xy 176.53 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf9bb9d5-8992-4b18-ad4d-c95c0bef0ed5")
 	)
 	(bus
 		(pts
@@ -686,6 +808,16 @@
 			(color 221 133 0 1)
 		)
 		(uuid "c3ca032a-fe59-449b-93d6-d7dbf740f603")
+	)
+	(bus
+		(pts
+			(xy 163.83 72.39) (xy 171.45 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c498dd4b-20e1-485f-a1af-51bc5e8af090")
 	)
 	(wire
 		(pts
@@ -750,7 +882,7 @@
 	)
 	(bus
 		(pts
-			(xy 232.41 27.94) (xy 232.41 77.47)
+			(xy 233.68 36.83) (xy 233.68 77.47)
 		)
 		(stroke
 			(width 0.381)
@@ -761,7 +893,17 @@
 	)
 	(bus
 		(pts
-			(xy 163.83 60.96) (xy 179.07 60.96)
+			(xy 171.45 21.59) (xy 191.77 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e39993bb-12d9-4abb-8a49-92cd5875c932")
+	)
+	(bus
+		(pts
+			(xy 163.83 80.01) (xy 179.07 80.01)
 		)
 		(stroke
 			(width 0)
@@ -812,7 +954,7 @@
 	)
 	(bus
 		(pts
-			(xy 210.82 30.48) (xy 229.87 30.48)
+			(xy 210.82 39.37) (xy 231.14 39.37)
 		)
 		(stroke
 			(width 0.381)
@@ -1109,6 +1251,16 @@
 				(justify left)
 			)
 		)
+		(pin "{USER_BUTTONS}" input
+			(at 104.14 73.66 180)
+			(uuid "42b9117f-6590-4d4d-9885-66b93e689d56")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "lmc"
 				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34"
@@ -1232,8 +1384,8 @@
 		)
 	)
 	(sheet
-		(at 144.78 29.21)
-		(size 19.05 19.05)
+		(at 143.51 29.21)
+		(size 20.32 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1248,7 +1400,7 @@
 		)
 		(uuid "6557ddc5-0cf5-40fa-b242-36f455a19bb5")
 		(property "Sheetname" "STM - Power"
-			(at 144.78 28.4984 0)
+			(at 143.51 28.4984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1257,7 +1409,7 @@
 			)
 		)
 		(property "Sheetfile" "stm_power.kicad_sch"
-			(at 144.78 48.8446 0)
+			(at 143.51 48.8446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1602,8 +1754,8 @@
 		)
 	)
 	(sheet
-		(at 193.04 25.4)
-		(size 17.78 17.78)
+		(at 191.77 34.29)
+		(size 19.05 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1618,7 +1770,7 @@
 		)
 		(uuid "b17df6b5-2319-4e84-a7f7-49f2ff54e606")
 		(property "Sheetname" "Full Bridge"
-			(at 193.04 24.6884 0)
+			(at 191.77 33.5784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1627,7 +1779,7 @@
 			)
 		)
 		(property "Sheetfile" "full_bridge.kicad_sch"
-			(at 193.04 43.7646 0)
+			(at 191.77 62.8146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1636,7 +1788,7 @@
 			)
 		)
 		(pin "{MOTOR_PWM}" input
-			(at 193.04 39.37 180)
+			(at 191.77 52.07 180)
 			(uuid "cfed1f40-fcab-4bf3-bad3-9d6ac1a7beae")
 			(effects
 				(font
@@ -1646,7 +1798,7 @@
 			)
 		)
 		(pin "{MOTOR_A_POWER}" output
-			(at 210.82 27.94 0)
+			(at 210.82 36.83 0)
 			(uuid "9be4c8f8-fd19-4886-b941-306690291cb0")
 			(effects
 				(font
@@ -1656,7 +1808,7 @@
 			)
 		)
 		(pin "{MOTOR_B_POWER}" output
-			(at 210.82 30.48 0)
+			(at 210.82 39.37 0)
 			(uuid "6eb72c3f-7de1-418a-a3ea-b7c9c62a44f7")
 			(effects
 				(font
@@ -1665,10 +1817,92 @@
 				(justify right)
 			)
 		)
+		(pin "{MOTOR_CURRENT}" output
+			(at 191.77 59.69 180)
+			(uuid "f644fb81-ed41-4e7b-a24c-17d1895381aa")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "{MOTOR_DIR}" input
+			(at 191.77 54.61 180)
+			(uuid "481809f5-0cf2-482a-ab20-3e19bd23c151")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "{MOTOR_ENABLE}" input
+			(at 191.77 49.53 180)
+			(uuid "cb18bbe2-6ad2-4b4c-a98d-96590bc463c4")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "lmc"
 				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34"
 					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 191.77 16.51)
+		(size 19.05 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c83ce7c2-da01-4928-9c73-c6cac4cd947a")
+		(property "Sheetname" "Bus Sensing"
+			(at 191.77 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bus_sensing.kicad_sch"
+			(at 191.77 27.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BUS_SENSING_ADC" output
+			(at 191.77 21.59 180)
+			(uuid "5ab306ab-2a58-41ad-a870-f08fe8ad9a52")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "lmc"
+				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34"
+					(page "22")
 				)
 			)
 		)
@@ -1799,7 +2033,7 @@
 	)
 	(sheet
 		(at 21.59 64.77)
-		(size 12.7 20.32)
+		(size 16.51 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1831,6 +2065,16 @@
 				(justify left top)
 			)
 		)
+		(pin "{USER_BUTTONS}" output
+			(at 38.1 73.66 0)
+			(uuid "f42b39e1-ef64-47e9-841b-0a4753105969")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "lmc"
 				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34"
@@ -1840,8 +2084,8 @@
 		)
 	)
 	(sheet
-		(at 144.78 55.88)
-		(size 19.05 54.61)
+		(at 143.51 55.88)
+		(size 20.32 54.61)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1856,7 +2100,7 @@
 		)
 		(uuid "f54ea273-ed17-41d2-8602-b12668f35983")
 		(property "Sheetname" "STM - IO"
-			(at 144.78 55.1684 0)
+			(at 143.51 55.1684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1865,7 +2109,7 @@
 			)
 		)
 		(property "Sheetfile" "stm_io.kicad_sch"
-			(at 144.78 111.0746 0)
+			(at 143.51 111.0746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1874,7 +2118,7 @@
 			)
 		)
 		(pin "{UART}" bidirectional
-			(at 144.78 63.5 180)
+			(at 143.51 63.5 180)
 			(uuid "fbb1a2ce-0754-450f-8625-4b006ebdc520")
 			(effects
 				(font
@@ -1884,7 +2128,7 @@
 			)
 		)
 		(pin "H_BEAT" input
-			(at 144.78 66.04 180)
+			(at 143.51 66.04 180)
 			(uuid "80714de5-98ee-4d44-a085-fe7ebc0e0dd3")
 			(effects
 				(font
@@ -1894,7 +2138,7 @@
 			)
 		)
 		(pin "{DFU}" bidirectional
-			(at 144.78 60.96 180)
+			(at 143.51 60.96 180)
 			(uuid "25523e16-ebd6-4b9d-a08a-910d6ae60fa2")
 			(effects
 				(font
@@ -1904,7 +2148,7 @@
 			)
 		)
 		(pin "{MOTOR_PWM}" output
-			(at 163.83 60.96 0)
+			(at 163.83 80.01 0)
 			(uuid "5977ce08-3758-4d5b-a625-491c167e0688")
 			(effects
 				(font
@@ -1936,6 +2180,46 @@
 		(pin "{DRY_INPUTS_SIGNAL}" input
 			(at 163.83 104.14 0)
 			(uuid "5d4a983b-820c-4814-a897-c696dce598af")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "{MOTOR_CURRENT}" input
+			(at 163.83 87.63 0)
+			(uuid "ac6d187e-cc43-495f-b084-1f5d4ff6b867")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "{MOTOR_DIR}" output
+			(at 163.83 77.47 0)
+			(uuid "625bdc70-7644-43b4-8d6d-307846a55ff6")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "{MOTOR_ENABLE}" output
+			(at 163.83 82.55 0)
+			(uuid "bea90807-b9a4-4138-87a3-6a88fd59d7bb")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "{BUS_SENSING_ADC}" input
+			(at 163.83 72.39 0)
+			(uuid "2e66fd57-325e-4a14-bcce-8b895b0a9c74")
 			(effects
 				(font
 					(size 1.016 1.016)
