@@ -5,6 +5,36 @@
 	(uuid "605b3538-1bdb-4771-8547-2660f4f056f3")
 	(paper "A4")
 	(lib_symbols)
+	(bus
+		(pts
+			(xy 72.39 100.33) (xy 85.09 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e19982c-f690-412e-b56a-49913ca95072")
+	)
+	(bus
+		(pts
+			(xy 72.39 95.25) (xy 85.09 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25106951-8f9f-49bd-8436-fb0e5cac51a6")
+	)
+	(bus
+		(pts
+			(xy 72.39 97.79) (xy 85.09 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26686855-1363-4f83-b260-543021f1ea0e")
+	)
 	(hierarchical_label "{MOTOR_B_POWER}"
 		(shape input)
 		(at 73.66 53.34 180)
@@ -16,7 +46,7 @@
 		)
 		(uuid "2b4e3b82-b6af-484c-8208-a45dc09636bd")
 	)
-	(hierarchical_label "{LED_POWER_1}"
+	(hierarchical_label "LED_POWER_1"
 		(shape input)
 		(at 72.39 95.25 180)
 		(effects
@@ -38,7 +68,7 @@
 		)
 		(uuid "40a1bb47-aeb3-4a9f-93e0-1a3dd4eea7a7")
 	)
-	(hierarchical_label "{LED_POWER_2}"
+	(hierarchical_label "LED_POWER_2"
 		(shape input)
 		(at 72.39 97.79 180)
 		(effects
@@ -49,7 +79,7 @@
 		)
 		(uuid "4cae26d2-2cc7-4bc6-a913-94cbe8629af5")
 	)
-	(hierarchical_label "{LED_POWER_3}"
+	(hierarchical_label "LED_POWER_3"
 		(shape input)
 		(at 72.39 100.33 180)
 		(effects
@@ -61,7 +91,7 @@
 		(uuid "60919eea-15f4-48cc-b247-1bf9a8aea189")
 	)
 	(hierarchical_label "{DRY_INPUTS}"
-		(shape input)
+		(shape output)
 		(at 72.39 111.76 180)
 		(effects
 			(font

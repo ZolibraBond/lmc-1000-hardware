@@ -396,7 +396,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "schematics/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -421,36 +421,48 @@
       "Project Architecture"
     ],
     [
-      "25f4f4bb-ba37-4d24-9fb4-ef50d4a900b1",
-      "Power Supplies"
-    ],
-    [
       "704a2920-42a2-4134-99be-da9a1c79a083",
       "Power Connector"
     ],
     [
-      "e68f89bf-469a-4886-98f8-258b26d47d33",
-      "User Buttons"
+      "25f4f4bb-ba37-4d24-9fb4-ef50d4a900b1",
+      "Power Supplies"
     ],
     [
       "5374d74e-a8ad-496c-8cef-c33a09ccd618",
       "ESP - Power"
     ],
     [
-      "41773ed0-4f1c-410e-b5b1-bad08a5af6f6",
-      "ESP - IO"
-    ],
-    [
       "6557ddc5-0cf5-40fa-b242-36f455a19bb5",
       "STM - Power"
+    ],
+    [
+      "41773ed0-4f1c-410e-b5b1-bad08a5af6f6",
+      "ESP - IO"
     ],
     [
       "f54ea273-ed17-41d2-8602-b12668f35983",
       "STM - IO"
     ],
     [
+      "e68f89bf-469a-4886-98f8-258b26d47d33",
+      "User Interface"
+    ],
+    [
       "595aa9ab-9857-4bbe-83d6-dd02670d6d3a",
       "Radio"
+    ],
+    [
+      "c83ce7c2-da01-4928-9c73-c6cac4cd947a",
+      "Bus Sensing"
+    ],
+    [
+      "b17df6b5-2319-4e84-a7f7-49f2ff54e606",
+      "Full Bridge"
+    ],
+    [
+      "7d29c820-8f8d-4e9f-b8e3-4727f94d7667",
+      "Hal Input Frontend"
     ],
     [
       "a11fa67e-26bd-4e7e-be77-e56541e95d03",
@@ -458,19 +470,7 @@
     ],
     [
       "d1d77b66-6a00-4c0c-88c7-3b553a1f6635",
-      "TTL Channels Buffer"
-    ],
-    [
-      "d7405cf3-e173-47e5-ab91-67f08f39f685",
-      "Dry Inputs Frontend"
-    ],
-    [
-      "7d29c820-8f8d-4e9f-b8e3-4727f94d7667",
-      "Hal Input Frontend"
-    ],
-    [
-      "b17df6b5-2319-4e84-a7f7-49f2ff54e606",
-      "Full Bridge"
+      "IO Channels Buffer"
     ],
     [
       "97d892d8-a2b2-435a-b4c8-cbca9c298078",
@@ -485,16 +485,36 @@
       "Motor B Full Bridge"
     ],
     [
-      "c43479bc-dda5-48e4-a5cb-b4f4de8c31f1",
-      "Motor A Current Sensor"
+      "b6d4aa40-33a4-40f8-ab0c-db5e6caf51ca",
+      "LED Power Control 0"
     ],
     [
-      "e6283d7e-eaff-4a50-9529-c365853346bd",
-      "Motor B Current Sensor"
+      "acbd82b4-c31d-46cd-a8aa-114a1002de38",
+      "LED Power Control 1"
     ],
     [
-      "c83ce7c2-da01-4928-9c73-c6cac4cd947a",
-      "Bus Sensing"
+      "e7f8a237-8f48-418f-853c-ca9ca3d3480b",
+      "LED Power Control 2"
+    ],
+    [
+      "a97f7a76-3c12-4746-afe3-7e292676a98c",
+      "LED Power Control 3"
+    ],
+    [
+      "4c7ed55e-b43d-4554-a8df-d57a3eb6e340",
+      "LED Power Control 4"
+    ],
+    [
+      "f346726f-e69d-4297-b55a-ff807cd71a08",
+      "LED Power Control 5"
+    ],
+    [
+      "2b2138fb-9a2f-49b7-87dd-8600e7cd54f5",
+      "LED Power Control 6"
+    ],
+    [
+      "5ffca80d-aff1-4c20-8ffa-1e14bc2cf226",
+      "LED Power Control 7"
     ]
   ],
   "text_variables": {}

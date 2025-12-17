@@ -11,7 +11,7 @@
 		(company "Olibra LLC")
 	)
 	(lib_symbols)
-	(text "Dry Inputs Frontend"
+	(text "Hal Input Frontend"
 		(exclude_from_sim no)
 		(at 135.89 74.168 0)
 		(effects
@@ -39,7 +39,7 @@
 		)
 		(uuid "0d6385de-25a2-411d-a4ad-f4ed6a299402")
 	)
-	(text "ESP - Power"
+	(text "STM - Power"
 		(exclude_from_sim no)
 		(at 40.64 92.456 0)
 		(effects
@@ -95,7 +95,7 @@
 		)
 		(uuid "1214c011-e3d7-47a6-9ec4-7c73988f2e56")
 	)
-	(text "BUS Sensing"
+	(text "LED Power Control 2"
 		(exclude_from_sim no)
 		(at 231.14 62.23 0)
 		(effects
@@ -165,7 +165,7 @@
 		)
 		(uuid "262cface-3d3f-4a42-95dd-66126c9bb0c7")
 	)
-	(text "Power Supplies"
+	(text "Power Connector"
 		(exclude_from_sim no)
 		(at 40.64 74.168 0)
 		(effects
@@ -207,7 +207,7 @@
 		)
 		(uuid "2eec34e8-73db-4a62-826c-dccdc0122000")
 	)
-	(text "Power Connector"
+	(text "Power Supplies"
 		(exclude_from_sim no)
 		(at 40.64 80.264 0)
 		(effects
@@ -221,7 +221,7 @@
 		)
 		(uuid "2fea5b0e-6747-462c-adca-adbb96bdf050")
 	)
-	(text "MOTOR A Current Sensor"
+	(text "LED Power Control 0"
 		(exclude_from_sim no)
 		(at 135.89 110.49 0)
 		(effects
@@ -334,7 +334,7 @@
 		)
 		(uuid "49923a6f-820a-4c9e-9b55-a7891d4b0644")
 	)
-	(text "MOTOR B Current Sensor"
+	(text "LED Power Control 1"
 		(exclude_from_sim no)
 		(at 231.14 56.134 0)
 		(effects
@@ -348,7 +348,7 @@
 		)
 		(uuid "4a3bdf00-fa40-4e7f-82af-7cb99d9f5928")
 	)
-	(text "PWM Channels"
+	(text "Bus Sensing"
 		(exclude_from_sim no)
 		(at 135.89 61.976 0)
 		(effects
@@ -488,7 +488,19 @@
 		)
 		(uuid "69f9f113-8582-4d09-9184-801e4ea3fb41")
 	)
-	(text "Full Bridge"
+	(text "TODO - This is an example of todo notes"
+		(exclude_from_sim no)
+		(at 178.816 155.956 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(color 255 0 255 1)
+			)
+			(justify left)
+		)
+		(uuid "6a6580af-0b4d-4567-9f1d-0fecb61e6eed")
+	)
+	(text "IO Channels Buffer"
 		(exclude_from_sim no)
 		(at 135.89 86.36 0)
 		(effects
@@ -502,7 +514,7 @@
 		)
 		(uuid "6abe4486-9606-4f8e-bd66-0ef63f766470")
 	)
-	(text "____"
+	(text "LED Power Control 5"
 		(exclude_from_sim no)
 		(at 231.14 80.518 0)
 		(effects
@@ -516,7 +528,7 @@
 		)
 		(uuid "7533848e-e08f-4e92-9ccb-8a176e9f2825")
 	)
-	(text "____"
+	(text "LED Power Control 7"
 		(exclude_from_sim no)
 		(at 231.14 92.71 0)
 		(effects
@@ -558,7 +570,7 @@
 		)
 		(uuid "7e9ccb81-ade0-4439-8e7b-0c0b60e751d6")
 	)
-	(text "TTL Channels Buffer"
+	(text "Full Bridge"
 		(exclude_from_sim no)
 		(at 135.89 68.072 0)
 		(effects
@@ -572,7 +584,7 @@
 		)
 		(uuid "814a1c60-aa7c-4fb0-a12b-f3ba6d72c38d")
 	)
-	(text "STM - Power"
+	(text "STM - IO"
 		(exclude_from_sim no)
 		(at 40.64 104.648 0)
 		(effects
@@ -656,7 +668,7 @@
 		)
 		(uuid "8cfaf8f1-5160-4352-b7bb-7e874f7e9a6c")
 	)
-	(text "____"
+	(text "LED Power Control 3"
 		(exclude_from_sim no)
 		(at 231.14 68.326 0)
 		(effects
@@ -698,7 +710,7 @@
 		)
 		(uuid "91b6bf76-5f43-4c74-8c2a-3fb1bc74cb5e")
 	)
-	(text "User Buttons"
+	(text "ESP - Power"
 		(exclude_from_sim no)
 		(at 40.64 86.36 0)
 		(effects
@@ -712,7 +724,7 @@
 		)
 		(uuid "99463fac-ec08-4412-9183-77dcbb39da75")
 	)
-	(text "Hal Input Frontend"
+	(text "PWM Channels"
 		(exclude_from_sim no)
 		(at 135.89 80.264 0)
 		(effects
@@ -726,7 +738,7 @@
 		)
 		(uuid "99679526-0435-496e-9556-d81a598cde19")
 	)
-	(text "____"
+	(text "LED Power Control 4"
 		(exclude_from_sim no)
 		(at 231.14 74.422 0)
 		(effects
@@ -832,7 +844,7 @@
 		)
 		(uuid "cc03501e-7b0c-44cc-8d72-516d16bf9f66")
 	)
-	(text "STM - IO"
+	(text "User Buttons"
 		(exclude_from_sim no)
 		(at 40.64 110.49 0)
 		(effects
@@ -846,7 +858,7 @@
 		)
 		(uuid "d2a89c99-4361-45e3-a558-b14078ea0896")
 	)
-	(text "____"
+	(text "LED Power Control 6"
 		(exclude_from_sim no)
 		(at 231.14 86.614 0)
 		(effects

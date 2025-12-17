@@ -5,48 +5,2032 @@
 	(uuid "de81bbee-282b-4d8a-b355-f47b6e38a698")
 	(paper "A4")
 	(lib_symbols)
-	(hierarchical_label "{LED_POWER_2}"
-		(shape output)
-		(at 220.98 55.88 180)
+	(rectangle
+		(start 45.72 110.49)
+		(end 245.11 154.94)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 58d83fe8-c33d-43ec-a013-0210da2967d4)
+	)
+	(rectangle
+		(start 45.72 21.59)
+		(end 245.11 66.04)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8a5c0c87-2601-40e3-acc0-33e9f6be6402)
+	)
+	(rectangle
+		(start 45.72 66.04)
+		(end 245.11 110.49)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d030eab1-765b-4694-bd24-75866e12c8a1)
+	)
+	(text "LED 3"
+		(exclude_from_sim no)
+		(at 235.712 151.892 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "071cd2df-d14e-45d1-a8a1-00215044dc8e")
+	)
+	(text "LED 1"
+		(exclude_from_sim no)
+		(at 235.204 62.992 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "59174db8-1ca3-4978-b283-fb5b8175cc85")
+	)
+	(text "LED 2"
+		(exclude_from_sim no)
+		(at 235.204 107.442 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "bca1cae1-8f20-4e22-a125-fa4c57d50ae3")
+	)
+	(bus_entry
+		(at 200.66 60.96)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01ed042a-3ddd-4f19-bd29-1f582e5b0405")
+	)
+	(bus_entry
+		(at 200.66 25.4)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fc417cf-e3d2-425c-b28f-9b19c57a49aa")
+	)
+	(bus_entry
+		(at 78.74 48.26)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "204112db-0f7b-4c8c-a861-8d4c72cb0e7b")
+	)
+	(bus_entry
+		(at 200.66 119.38)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23df14f3-5920-4c54-8231-eb6ca83078f2")
+	)
+	(bus_entry
+		(at 78.74 78.74)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "336db7a7-ad73-401e-b43f-a8e21c99a9d7")
+	)
+	(bus_entry
+		(at 200.66 43.18)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aba5896-1323-4624-8c83-f84ccca5b4e8")
+	)
+	(bus_entry
+		(at 78.74 69.85)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e975e74-9b2a-4912-8dd2-1c47d60cdc80")
+	)
+	(bus_entry
+		(at 78.74 114.3)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f64571d-4635-4e40-8c94-8d61ed5d3296")
+	)
+	(bus_entry
+		(at 78.74 149.86)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "482c92e3-9eb0-4208-982d-66c7700eb2eb")
+	)
+	(bus_entry
+		(at 78.74 25.4)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b0deda1-849d-4afd-8f37-978ad23b2b05")
+	)
+	(bus_entry
+		(at 78.74 137.16)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c4fa32f-22e8-4aaf-aba6-a62b8f934083")
+	)
+	(bus_entry
+		(at 78.74 30.48)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4de0114c-8f4f-48c3-8ece-991671cd92e7")
+	)
+	(bus_entry
+		(at 200.66 78.74)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52cd51f5-3261-42e7-8cee-dfcdc024b85c")
+	)
+	(bus_entry
+		(at 78.74 96.52)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d1859a2-52ce-4fa7-af60-9c124a91895a")
+	)
+	(bus_entry
+		(at 200.66 96.52)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61045873-3ac2-4017-bb30-d68f1e47ad55")
+	)
+	(bus_entry
+		(at 78.74 101.6)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66ee60f9-5c44-4b5e-ad40-95c905e13747")
+	)
+	(bus_entry
+		(at 200.66 114.3)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7823d73f-d1ae-43da-81bb-3a7510991c36")
+	)
+	(bus_entry
+		(at 200.66 149.86)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82dea38c-569a-4089-a523-e9c7df2142d2")
+	)
+	(bus_entry
+		(at 78.74 119.38)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87ed13b0-3b7b-42ba-afdc-306ed2fb7891")
+	)
+	(bus_entry
+		(at 200.66 48.26)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98334b25-f9ee-4747-afb9-f30b39cd6045")
+	)
+	(bus_entry
+		(at 78.74 60.96)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c9adfe9-a966-44ac-8d70-13747882e78d")
+	)
+	(bus_entry
+		(at 78.74 43.18)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9df805d5-c4b0-4cd0-874f-549f86ce39ec")
+	)
+	(bus_entry
+		(at 200.66 101.6)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a022db56-0b81-4b45-992d-4c4822980e19")
+	)
+	(bus_entry
+		(at 200.66 30.48)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3e16a86-68cb-4605-bd7d-dbca114d300b")
+	)
+	(bus_entry
+		(at 200.66 137.16)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a725ca99-392f-4209-9b0b-50616dc38915")
+	)
+	(bus_entry
+		(at 200.66 69.85)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af477e0f-e937-4160-bab7-419b0fc59a0b")
+	)
+	(bus_entry
+		(at 200.66 132.08)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b27c1123-55aa-4a16-a46d-4e98f939d456")
+	)
+	(bus_entry
+		(at 78.74 132.08)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d23e5908-59cc-4700-9121-ddeb9bc8cff1")
+	)
+	(bus_entry
+		(at 200.66 83.82)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d57630bc-eb15-4271-9a36-d0417add8182")
+	)
+	(bus_entry
+		(at 78.74 83.82)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1aa5998-2105-47aa-a722-4aca07f7e87c")
+	)
+	(wire
+		(pts
+			(xy 198.12 50.8) (xy 152.4 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00fab422-5451-478f-bb91-cd296bf1130d")
+	)
+	(wire
+		(pts
+			(xy 198.12 63.5) (xy 152.4 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0175d588-df23-4fe1-9101-46af3baec4dc")
+	)
+	(bus
+		(pts
+			(xy 78.74 132.08) (xy 78.74 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0534428a-3c5c-434d-9940-66f1c7393072")
+	)
+	(bus
+		(pts
+			(xy 222.25 69.85) (xy 200.66 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c2cbbc6-52af-462b-86df-e497eaa80a6e")
+	)
+	(wire
+		(pts
+			(xy 123.19 68.58) (xy 127 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b4e9d80-2cdc-487c-8f52-ae3d606dcb97")
+	)
+	(wire
+		(pts
+			(xy 198.12 86.36) (xy 152.4 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ba97c67-a29e-4f6b-9a3c-dd276715f528")
+	)
+	(wire
+		(pts
+			(xy 81.28 86.36) (xy 127 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28029499-0fcd-4775-b520-d18e444ee6eb")
+	)
+	(wire
+		(pts
+			(xy 81.28 72.39) (xy 119.38 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "284c9459-0722-498f-a4dc-c1120cad7f2d")
+	)
+	(bus
+		(pts
+			(xy 200.66 25.4) (xy 200.66 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "294f4242-5c84-4904-bf1d-cfc092cafddd")
+	)
+	(bus
+		(pts
+			(xy 78.74 78.74) (xy 78.74 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29c18e53-93cd-46d3-b98c-cb73621a2edb")
+	)
+	(wire
+		(pts
+			(xy 198.12 33.02) (xy 152.4 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ccfa9ca-867a-465d-b4b9-94ad6065695e")
+	)
+	(wire
+		(pts
+			(xy 160.02 72.39) (xy 156.21 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dae3faf-2e97-49e4-b4e2-067b5a56c064")
+	)
+	(wire
+		(pts
+			(xy 81.28 139.7) (xy 127 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33a1c0c0-870e-497b-90d8-66c8cd67fcd0")
+	)
+	(wire
+		(pts
+			(xy 81.28 152.4) (xy 127 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c2c2885-5705-4711-954d-300d0f24a17a")
+	)
+	(bus
+		(pts
+			(xy 78.74 48.26) (xy 78.74 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "402fb718-3a25-4921-a9de-fde0abdecbba")
+	)
+	(wire
+		(pts
+			(xy 81.28 104.14) (xy 127 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41b5b5ab-a0fc-4195-92c7-b98b01484ab0")
+	)
+	(wire
+		(pts
+			(xy 198.12 27.94) (xy 152.4 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "426a7d34-5155-43a0-a68e-b46bd90f4bd4")
+	)
+	(wire
+		(pts
+			(xy 81.28 63.5) (xy 127 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45480a96-3d63-4ba9-91cb-65206b1a00ee")
+	)
+	(bus
+		(pts
+			(xy 200.66 96.52) (xy 200.66 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ebbabc4-c068-4c98-a755-9fe8412af5df")
+	)
+	(wire
+		(pts
+			(xy 81.28 81.28) (xy 127 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f9fb233-f193-4cfe-bed8-56cdbe3595b8")
+	)
+	(bus
+		(pts
+			(xy 200.66 48.26) (xy 200.66 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "509fc5d3-2750-4feb-9884-80f0ec784515")
+	)
+	(wire
+		(pts
+			(xy 198.12 152.4) (xy 152.4 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55f0eb73-4e25-442b-a25f-84a0fa70de8a")
+	)
+	(wire
+		(pts
+			(xy 81.28 50.8) (xy 127 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57beda60-22ac-4aaf-8db4-29bb42d8a4e2")
+	)
+	(bus
+		(pts
+			(xy 200.66 69.85) (xy 200.66 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "586c3e21-e1a9-41e0-888c-ff4a2b3231a8")
+	)
+	(bus
+		(pts
+			(xy 78.74 114.3) (xy 78.74 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "592ecb29-a3ca-4db6-9b56-eb4494d60136")
+	)
+	(wire
+		(pts
+			(xy 81.28 27.94) (xy 127 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d4e5817-5181-4d40-a0a1-8e024cb39aa9")
+	)
+	(bus
+		(pts
+			(xy 200.66 83.82) (xy 200.66 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6414172d-4310-4115-b731-dec7384b7be7")
+	)
+	(bus
+		(pts
+			(xy 64.77 25.4) (xy 78.74 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7036ce2b-4b93-4af5-8cdb-9be4b676a6c2")
+	)
+	(wire
+		(pts
+			(xy 198.12 121.92) (xy 152.4 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "727f872e-aeab-4524-ad6b-aa9d5522d2c9")
+	)
+	(bus
+		(pts
+			(xy 222.25 25.4) (xy 200.66 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "788bb4bc-7529-44a0-b68c-a80efba37ca1")
+	)
+	(bus
+		(pts
+			(xy 78.74 30.48) (xy 78.74 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80bea619-88ce-4508-956f-48d3ca539512")
+	)
+	(wire
+		(pts
+			(xy 119.38 72.39) (xy 123.19 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89e2261d-48e5-4ee2-bf8b-091fe7795420")
+	)
+	(bus
+		(pts
+			(xy 200.66 114.3) (xy 200.66 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e320dda-291e-47f3-99d8-9e87acb476c0")
+	)
+	(bus
+		(pts
+			(xy 200.66 78.74) (xy 200.66 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91354675-65d0-4d98-970c-91c4aa94ca24")
+	)
+	(bus
+		(pts
+			(xy 64.77 69.85) (xy 78.74 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9163876c-468a-4526-b260-d22a1d5fe10f")
+	)
+	(bus
+		(pts
+			(xy 200.66 43.18) (xy 200.66 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9258a8a0-3380-4c98-9d06-a61d83d91ce0")
+	)
+	(bus
+		(pts
+			(xy 200.66 119.38) (xy 200.66 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "929acf27-315b-4e98-80db-a52880237468")
+	)
+	(wire
+		(pts
+			(xy 156.21 68.58) (xy 152.4 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9762bbf4-9166-4ebc-befd-a0cbb7477209")
+	)
+	(wire
+		(pts
+			(xy 198.12 45.72) (xy 152.4 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "991e7ce3-5e62-4a5b-941b-514d4509e9fb")
+	)
+	(wire
+		(pts
+			(xy 198.12 81.28) (xy 152.4 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b5928f9-3566-48cd-8167-7bc4e2927624")
+	)
+	(wire
+		(pts
+			(xy 81.28 134.62) (xy 127 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b5e3758-5302-433b-b8fc-032f2c65dba6")
+	)
+	(bus
+		(pts
+			(xy 78.74 83.82) (xy 78.74 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b86aa0a-0bd6-4fab-8d07-bcb3aa786dad")
+	)
+	(bus
+		(pts
+			(xy 78.74 69.85) (xy 78.74 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c04e2ab-05f3-439d-9a0f-05c2914187ec")
+	)
+	(wire
+		(pts
+			(xy 81.28 99.06) (xy 127 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1dbee0f-99f1-42f8-95fc-808834decd8f")
+	)
+	(bus
+		(pts
+			(xy 222.25 114.3) (xy 200.66 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3c52c49-9e94-4285-a730-06cb33eee4eb")
+	)
+	(bus
+		(pts
+			(xy 78.74 137.16) (xy 78.74 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a60d3b57-451a-4929-8d74-a34257133a33")
+	)
+	(bus
+		(pts
+			(xy 78.74 43.18) (xy 78.74 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa564952-d8d2-4787-b9d9-4a28402d8c5b")
+	)
+	(wire
+		(pts
+			(xy 198.12 72.39) (xy 160.02 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af693dc1-463e-456f-b2e7-2c9c36c6a847")
+	)
+	(bus
+		(pts
+			(xy 200.66 132.08) (xy 200.66 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1ecfe84-5a97-4241-90b9-01d7456db118")
+	)
+	(wire
+		(pts
+			(xy 81.28 121.92) (xy 127 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b73b4d0e-c806-43c9-92e7-e197733bf44b")
+	)
+	(bus
+		(pts
+			(xy 78.74 119.38) (xy 78.74 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c05e44c7-e6ec-45b8-bc06-dbc1ed0bb8ba")
+	)
+	(wire
+		(pts
+			(xy 198.12 99.06) (xy 152.4 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c085bdb9-80dc-4cb7-af41-98e47bf8def3")
+	)
+	(bus
+		(pts
+			(xy 64.77 114.3) (xy 78.74 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c804c16b-18ea-4f7e-902d-d01a8bbf5207")
+	)
+	(wire
+		(pts
+			(xy 81.28 116.84) (xy 127 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc905596-cdc3-405e-81c5-4e2e2d21ab19")
+	)
+	(wire
+		(pts
+			(xy 198.12 116.84) (xy 152.4 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d863f6ab-007a-46a2-a07d-118c87ed3a24")
+	)
+	(wire
+		(pts
+			(xy 81.28 33.02) (xy 127 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dacc4dc2-4df0-4be6-a754-2520796a378a")
+	)
+	(bus
+		(pts
+			(xy 78.74 96.52) (xy 78.74 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc7bf65c-e02f-42a9-8cc1-781eb9530544")
+	)
+	(wire
+		(pts
+			(xy 198.12 104.14) (xy 152.4 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e15c458b-268e-4135-ae2f-03f2f16ea658")
+	)
+	(wire
+		(pts
+			(xy 81.28 45.72) (xy 127 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e56164d9-4cba-4b83-acd1-2425ef85441e")
+	)
+	(wire
+		(pts
+			(xy 198.12 134.62) (xy 152.4 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e709271f-07cf-4ce6-aa70-956b3a12b61f")
+	)
+	(bus
+		(pts
+			(xy 200.66 137.16) (xy 200.66 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebe47dbd-bfa9-4a09-bade-86a663b66516")
+	)
+	(wire
+		(pts
+			(xy 198.12 139.7) (xy 152.4 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f204e746-fe1e-4d57-bc82-0c66d8c47609")
+	)
+	(bus
+		(pts
+			(xy 200.66 30.48) (xy 200.66 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f40826bd-06c6-4765-96b3-736a289a7e33")
+	)
+	(bus
+		(pts
+			(xy 78.74 25.4) (xy 78.74 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9d717bb-3f27-48ee-99c1-8eb6144bef1c")
+	)
+	(label "LED_POWER_3{R G B W Y}"
+		(at 200.66 114.3 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "00f8f3f8-a612-4236-9866-96b8b41b2a87")
+	)
+	(label "LED_POWER_3.B"
+		(at 196.85 134.62 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "09550693-b115-4b94-9ede-3ba2ca3606ae")
+	)
+	(label "LED_PIN_3.Y"
+		(at 82.55 152.4 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "0fda5e3d-65a0-4e19-aaf1-89dc87d89062")
+	)
+	(label "LED_PIN_1.R"
+		(at 82.55 27.94 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "10cadec9-32e8-4ebc-a69a-ee3e8eb0967f")
+	)
+	(label "LED_POWER_3.R"
+		(at 196.85 116.84 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "2bccf590-79f8-4f8f-a896-30914fddd012")
+	)
+	(label "LED_POWER_1.B"
+		(at 196.85 45.72 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "32b6592e-a5d4-4407-8339-2221f04260e7")
+	)
+	(label "LED_POWER_2.B"
+		(at 196.85 86.36 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "3e982bbd-8626-4544-9811-f7bd5a303ef3")
+	)
+	(label "LED_POWER_2.R"
+		(at 196.85 72.39 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "40021f8f-03be-4adc-92ca-4ba0845a54ef")
+	)
+	(label "LED_POWER_2{R G B W Y}"
+		(at 200.66 69.85 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "53cc1606-e688-4850-b96e-d72441c25787")
+	)
+	(label "LED_POWER_1.G"
+		(at 196.85 33.02 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "6eff8d52-462e-429e-92c1-1bd8bf03654e")
+	)
+	(label "LED_PIN_2.Y"
+		(at 82.55 104.14 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "759eb10c-8f57-4a9d-878d-c0892dab6486")
+	)
+	(label "LED_PIN_1.W"
+		(at 82.55 50.8 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "764b6241-a918-4249-bf70-02ad5da6fb15")
+	)
+	(label "LED_POWER_2.W"
+		(at 196.85 99.06 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "83f74300-903d-4cdf-acf2-6fca8da06968")
+	)
+	(label "LED_POWER_2.G"
+		(at 196.85 81.28 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "86f7bb84-b40a-4b05-a599-ad33d45f3568")
+	)
+	(label "LED_PIN_1.G"
+		(at 82.55 33.02 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b8d3f94-1152-4f87-b035-cef7d62c3a20")
+	)
+	(label "LED_POWER_1.R"
+		(at 196.85 27.94 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "a05750df-45e7-465f-8b6c-2c17dbcaff21")
+	)
+	(label "LED_POWER_1{R G B W Y}"
+		(at 200.66 25.4 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "a59db2f6-6ab6-4029-84ac-fe3d9ee9f7de")
+	)
+	(label "LED_POWER_3.Y"
+		(at 196.85 152.4 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "a65b209c-c486-460f-9726-4091b7a5d46e")
+	)
+	(label "LED_PIN_1.Y"
+		(at 82.55 63.5 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7a77ee5-99d0-4fb0-8d19-6b01ee36551a")
+	)
+	(label "LED_PIN_3.W"
+		(at 82.55 139.7 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9ca6977-fac7-4090-8723-2f8d883de2b2")
+	)
+	(label "LED_PIN_2.B"
+		(at 82.55 86.36 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "aada5e44-d159-4cd3-85e6-8306e2593406")
+	)
+	(label "LED_PIN_3.G"
+		(at 82.55 121.92 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac2d9020-7000-4aa9-b6a7-133a309acb89")
+	)
+	(label "LED_PIN_2.G"
+		(at 82.55 81.28 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae00a002-dc73-48e1-839e-0eb37abdaaf5")
+	)
+	(label "LED_PIN_1.B"
+		(at 82.55 45.72 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "b12f90c9-fecd-4553-94e3-bae4de843eb1")
+	)
+	(label "LED_PIN_2.R"
+		(at 82.55 72.39 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7273fa7-bbb9-4ea0-bd55-ad1124e454d4")
+	)
+	(label "LED_PIN_2.W"
+		(at 82.55 99.06 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "bab49876-b4c8-4eb5-8d16-d6e71aae0570")
+	)
+	(label "LED_POWER_1.W"
+		(at 196.85 50.8 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "c955d8c2-005f-4bdf-8e8a-1bc7a19033fc")
+	)
+	(label "LED_PIN_3.R"
+		(at 82.55 116.84 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "d104a339-b069-488a-8168-4df2070ea8e0")
+	)
+	(label "LED_POWER_3.G"
+		(at 196.85 121.92 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "e201792a-9894-4d98-aff9-363ea6d592ec")
+	)
+	(label "LED_PIN_3.B"
+		(at 82.55 134.62 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "f376df66-976b-4e36-8dd3-01f29b8ddd52")
+	)
+	(label "LED_POWER_1.Y"
+		(at 196.85 63.5 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "f7990df1-75dd-455f-a0b7-9e3f7e384369")
+	)
+	(label "LED_POWER_2.Y"
+		(at 196.85 104.14 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "fd83598f-2b55-48b1-b9b1-2022d6078253")
+	)
+	(label "LED_POWER_3.W"
+		(at 196.85 139.7 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "fe525497-6f4d-42c2-9034-eb46541a7d04")
+	)
+	(hierarchical_label "LED_PWM_2"
+		(shape input)
+		(at 64.77 69.85 180)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
 			(justify right)
 		)
-		(uuid "434750ff-1b3e-4ba1-8f46-5a936a45e2d6")
+		(uuid "21943bc3-b675-45ed-b40b-ffb18a1c7d69")
 	)
-	(hierarchical_label "{LED_PWM}"
-		(shape input)
-		(at 45.72 83.82 0)
+	(hierarchical_label "LED_POWER_1"
+		(shape output)
+		(at 222.25 25.4 0)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
 			(justify left)
 		)
+		(uuid "36178a39-f420-4708-808f-4a7bd67dedd5")
+	)
+	(hierarchical_label "LED_PWM_1"
+		(shape input)
+		(at 64.77 25.4 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
 		(uuid "5d6819f6-3878-465e-a55b-8e3af673177f")
 	)
-	(hierarchical_label "{LED_POWER_1}"
+	(hierarchical_label "LED_POWER_2"
 		(shape output)
-		(at 220.98 53.34 180)
+		(at 222.25 69.85 0)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "6a47ff1b-75fa-483b-8b38-706afb5e84b2")
+		(uuid "6c35b43c-060c-4b00-97be-b5df27c28446")
 	)
-	(hierarchical_label "{LED_POWER_3}"
+	(hierarchical_label "LED_POWER_3"
 		(shape output)
-		(at 220.98 58.42 180)
+		(at 222.25 114.3 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "a2da467b-4a27-4e04-bd05-e44be56432fb")
+	)
+	(hierarchical_label "LED_PWM_3"
+		(shape input)
+		(at 64.77 114.3 180)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
 			(justify right)
 		)
-		(uuid "c81bbf07-4da6-47da-8441-bc43340ec08e")
+		(uuid "d85a43d2-2a81-43cd-913f-542cd8c7c52d")
+	)
+	(sheet
+		(at 127 130.81)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2b2138fb-9a2f-49b7-87dd-8600e7cd54f5")
+		(property "Sheetname" "LED Power Control 6"
+			(at 127 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led_power_control.kicad_sch"
+			(at 127 144.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_CATHODE_A" input
+			(at 152.4 134.62 0)
+			(uuid "66970ec2-9222-420d-95c0-217f03f23757")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED_CATHODE_B" input
+			(at 152.4 139.7 0)
+			(uuid "422abbf6-494c-4ed1-a284-7e049671fee4")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM_A" input
+			(at 127 134.62 180)
+			(uuid "038e4371-978e-47e1-82d4-53c3e246e95c")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM_B" input
+			(at 127 139.7 180)
+			(uuid "138c3f0a-80b4-4919-bad7-2feb82a0b59b")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "lmc"
+				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34/a11fa67e-26bd-4e7e-be77-e56541e95d03"
+					(page "26")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 95.25)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4c7ed55e-b43d-4554-a8df-d57a3eb6e340")
+		(property "Sheetname" "LED Power Control 4"
+			(at 127 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led_power_control.kicad_sch"
+			(at 127 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_CATHODE_A" input
+			(at 152.4 99.06 0)
+			(uuid "d7ca23ce-db37-4041-8b2b-529a3c9ebc83")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED_CATHODE_B" input
+			(at 152.4 104.14 0)
+			(uuid "b85edda3-9120-4c07-bfeb-34b07ac5c566")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM_A" input
+			(at 127 99.06 180)
+			(uuid "013a685a-fa58-4e0a-90ee-0680cf0d51fb")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM_B" input
+			(at 127 104.14 180)
+			(uuid "e1b7100d-81a2-46ae-ab7c-161911ad218d")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "lmc"
+				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34/a11fa67e-26bd-4e7e-be77-e56541e95d03"
+					(page "24")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 148.59)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5ffca80d-aff1-4c20-8ffa-1e14bc2cf226")
+		(property "Sheetname" "LED Power Control 7"
+			(at 127 147.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led_power_control.kicad_sch"
+			(at 127 161.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_CATHODE_A" input
+			(at 152.4 152.4 0)
+			(uuid "e594f125-5501-4852-983b-9ee3f49b7202")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED_CATHODE_B" input
+			(at 152.4 157.48 0)
+			(uuid "9fbfa230-0bda-48f2-bfaf-c3c356edf0f1")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM_A" input
+			(at 127 152.4 180)
+			(uuid "eeac048e-0896-4d6e-a48f-dc269cfe009d")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM_B" input
+			(at 127 157.48 180)
+			(uuid "2571d8b8-65df-4126-9f02-37e182ee67bc")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "lmc"
+				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34/a11fa67e-26bd-4e7e-be77-e56541e95d03"
+					(page "27")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 77.47)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a97f7a76-3c12-4746-afe3-7e292676a98c")
+		(property "Sheetname" "LED Power Control 3"
+			(at 127 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led_power_control.kicad_sch"
+			(at 127 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_CATHODE_A" input
+			(at 152.4 81.28 0)
+			(uuid "079a238b-2275-44ca-8919-e08c105dc779")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED_CATHODE_B" input
+			(at 152.4 86.36 0)
+			(uuid "4032d085-bafe-4fbd-af7e-e6a2392c835b")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM_A" input
+			(at 127 81.28 180)
+			(uuid "96b1c65e-5784-4ef0-b1b8-e7fe2f2eeb16")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM_B" input
+			(at 127 86.36 180)
+			(uuid "b3e3a7ef-e73d-4c70-93f0-e9dc81d08975")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "lmc"
+				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34/a11fa67e-26bd-4e7e-be77-e56541e95d03"
+					(page "23")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 41.91)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "acbd82b4-c31d-46cd-a8aa-114a1002de38")
+		(property "Sheetname" "LED Power Control 1"
+			(at 127 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led_power_control.kicad_sch"
+			(at 127 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_CATHODE_A" input
+			(at 152.4 45.72 0)
+			(uuid "9720c0eb-ec2e-4b87-8445-0767d6074bca")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED_CATHODE_B" input
+			(at 152.4 50.8 0)
+			(uuid "a258f536-b1b0-4784-9c0a-4813b991c9e2")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM_A" input
+			(at 127 45.72 180)
+			(uuid "43d1f15a-8b81-4cf4-bf4c-a4915a1d15c7")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM_B" input
+			(at 127 50.8 180)
+			(uuid "d1e2cf6f-d8b5-4623-b244-c154b32dab81")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "lmc"
+				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34/a11fa67e-26bd-4e7e-be77-e56541e95d03"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 24.13)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b6d4aa40-33a4-40f8-ab0c-db5e6caf51ca")
+		(property "Sheetname" "LED Power Control 0"
+			(at 127 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led_power_control.kicad_sch"
+			(at 127 37.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_CATHODE_A" input
+			(at 152.4 27.94 0)
+			(uuid "9ae9de3c-4638-4531-8d4e-2a1ce332855a")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED_CATHODE_B" input
+			(at 152.4 33.02 0)
+			(uuid "90302890-968f-4f10-a851-e9496f2285bc")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM_A" input
+			(at 127 27.94 180)
+			(uuid "3414e102-94c4-43b4-8403-bc37490b79ad")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM_B" input
+			(at 127 33.02 180)
+			(uuid "8c6aa087-7082-4bd0-8c6b-eec14ffaf130")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "lmc"
+				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34/a11fa67e-26bd-4e7e-be77-e56541e95d03"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 59.69)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e7f8a237-8f48-418f-853c-ca9ca3d3480b")
+		(property "Sheetname" "LED Power Control 2"
+			(at 127 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led_power_control.kicad_sch"
+			(at 127 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_CATHODE_A" input
+			(at 152.4 63.5 0)
+			(uuid "b460db1b-5500-4c06-bc13-9500c5dd4583")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED_CATHODE_B" input
+			(at 152.4 68.58 0)
+			(uuid "b9dbca18-c547-44f1-a534-0a0bec4596b3")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM_A" input
+			(at 127 63.5 180)
+			(uuid "8fe70ded-32f6-4171-8e74-4a197b86346f")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM_B" input
+			(at 127 68.58 180)
+			(uuid "90c5109d-d9f3-47b8-930f-0e816dcbd405")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "lmc"
+				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34/a11fa67e-26bd-4e7e-be77-e56541e95d03"
+					(page "22")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 113.03)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f346726f-e69d-4297-b55a-ff807cd71a08")
+		(property "Sheetname" "LED Power Control 5"
+			(at 127 112.3184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led_power_control.kicad_sch"
+			(at 127 126.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_CATHODE_A" input
+			(at 152.4 116.84 0)
+			(uuid "c7912014-58c4-41f6-ba1b-b23f44ce9329")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED_CATHODE_B" input
+			(at 152.4 121.92 0)
+			(uuid "520eda7f-7b74-4a4b-8aac-5857f9715f59")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM_A" input
+			(at 127 116.84 180)
+			(uuid "5964106c-dc85-41d7-8860-241dc50d4187")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM_B" input
+			(at 127 121.92 180)
+			(uuid "c22bb0c3-4020-4623-930c-e5a45d763c2f")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "lmc"
+				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34/a11fa67e-26bd-4e7e-be77-e56541e95d03"
+					(page "25")
+				)
+			)
+		)
 	)
 )

@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3e8f595e-1b86-450f-8a17-9a64e3560e7b")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "USER_BUTTONS"
+		(shape output)
+		(at 176.53 71.12 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "5d81cf2a-6245-424f-af26-3a8d5d8b7b95")
+	)
+)

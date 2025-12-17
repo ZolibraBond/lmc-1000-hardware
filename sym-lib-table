@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Bond_Kicad_Lib")(type "KiCad")(uri "${KIPRJMOD}/Bond_Kicad_Lib/Bond_Kicad_Lib.kicad_sym")(options "")(descr ""))
+)

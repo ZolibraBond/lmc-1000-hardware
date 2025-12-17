@@ -131,9 +131,135 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 86.36 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "279914da-0067-4b1b-bbaf-4b22015cf142")
+	)
+	(junction
+		(at 88.9 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "354a12d9-b874-46db-a843-795f7bae3708")
+	)
+	(junction
+		(at 91.44 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f648f72-0677-4fce-8537-27502abcf8e6")
+	)
+	(junction
+		(at 83.82 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "450350b8-f7af-4e94-a334-80a5e195d23f")
+	)
+	(bus_entry
+		(at 93.98 57.15)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23a29c98-94b8-495f-a740-c3f8ed73728e")
+	)
+	(bus_entry
+		(at 93.98 59.69)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2536abb1-cab1-4e89-9f06-736bc67dc4a3")
+	)
+	(bus_entry
+		(at 93.98 99.06)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e2c2edb-0275-47cd-8b14-214577f623e6")
+	)
+	(bus_entry
+		(at 93.98 93.98)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a13b30e-cbf4-4ce0-95ad-aa10dfb873c6")
+	)
+	(bus_entry
+		(at 93.98 101.6)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b2c7bb6-68ea-4dfd-a966-d14413e4be81")
+	)
+	(bus_entry
+		(at 93.98 52.07)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7181680-2d64-427f-9834-7a267a4f06bf")
+	)
+	(bus_entry
+		(at 93.98 54.61)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f05b6d1e-54f0-4ba1-ad5e-e810873debe9")
+	)
+	(bus_entry
+		(at 93.98 96.52)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb794edc-79da-4a55-97c7-eb90b6467dd6")
+	)
 	(wire
 		(pts
-			(xy 81.28 90.17) (xy 92.71 90.17)
+			(xy 96.52 96.52) (xy 144.78 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0650c979-a430-4eb8-a68c-5ff1754e8775")
+	)
+	(wire
+		(pts
+			(xy 96.52 59.69) (xy 144.78 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a4a150d-814f-4d9d-a85e-3c315c75a4cf")
+	)
+	(bus
+		(pts
+			(xy 63.5 57.15) (xy 86.36 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c62d89a-613d-47a2-8769-64a052e69bee")
+	)
+	(wire
+		(pts
+			(xy 130.81 90.17) (xy 144.78 90.17)
 		)
 		(stroke
 			(width 0)
@@ -141,9 +267,29 @@
 		)
 		(uuid "18cf8720-8d7d-40c9-a779-f1663fa84703")
 	)
+	(bus
+		(pts
+			(xy 63.5 54.61) (xy 88.9 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aedd906-44ec-4f6b-961e-c3cd101b89af")
+	)
+	(bus
+		(pts
+			(xy 83.82 101.6) (xy 93.98 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44732dd6-d6cc-4e4d-9398-f8541e608aa7")
+	)
 	(wire
 		(pts
-			(xy 81.28 45.72) (xy 81.28 48.26)
+			(xy 130.81 45.72) (xy 130.81 48.26)
 		)
 		(stroke
 			(width 0)
@@ -153,27 +299,167 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 48.26) (xy 144.78 48.26)
+			(xy 96.52 57.15) (xy 144.78 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5b4a8767-7389-4c0d-ab84-f2d26238cf17")
+		(uuid "60a64f95-e4ac-480e-a675-74cae2a29585")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 116.84 90.17) (xy 144.78 90.17)
+			(xy 83.82 59.69) (xy 93.98 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "718f4110-3223-44ed-b8f2-156ee30ffcb1")
+		(uuid "62c26d4d-1e76-4d8f-907d-8bd745b28d2b")
+	)
+	(bus
+		(pts
+			(xy 91.44 52.07) (xy 93.98 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6605179d-a826-47d1-bf49-fb76b781430e")
+	)
+	(bus
+		(pts
+			(xy 86.36 57.15) (xy 86.36 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a135645-f314-40fb-b5cd-8cbc3f478d58")
+	)
+	(bus
+		(pts
+			(xy 83.82 59.69) (xy 83.82 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c235531-10bd-4867-a0e7-44c0f90bb893")
 	)
 	(wire
 		(pts
-			(xy 81.28 48.26) (xy 92.71 48.26)
+			(xy 96.52 101.6) (xy 144.78 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "837a07be-6f74-4402-aac1-cc66e25a9294")
+	)
+	(wire
+		(pts
+			(xy 96.52 104.14) (xy 144.78 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f1e5be7-2517-4fa2-ac62-f2890cfd7731")
+	)
+	(bus
+		(pts
+			(xy 63.5 59.69) (xy 83.82 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a50fa6c-bfb9-4c4e-b09c-46f5f8b7eecb")
+	)
+	(wire
+		(pts
+			(xy 96.52 54.61) (xy 144.78 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a8bce47-c7ce-4c74-b55c-5866e535283f")
+	)
+	(bus
+		(pts
+			(xy 63.5 52.07) (xy 91.44 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a201535e-d0bc-423a-b06e-017d5e725918")
+	)
+	(bus
+		(pts
+			(xy 86.36 57.15) (xy 93.98 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5958914-0f53-4624-90f5-0d91d60e6a84")
+	)
+	(bus
+		(pts
+			(xy 91.44 93.98) (xy 93.98 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5e0f2a2-4c3a-4047-86e0-80c118d8216b")
+	)
+	(bus
+		(pts
+			(xy 88.9 96.52) (xy 93.98 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad138186-6d80-4aeb-bbbf-463f8ebdd519")
+	)
+	(wire
+		(pts
+			(xy 96.52 99.06) (xy 144.78 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc61a89c-a501-4691-addd-7dafd2442de9")
+	)
+	(bus
+		(pts
+			(xy 91.44 52.07) (xy 91.44 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccc10aac-5b16-48cc-a53d-9a18afdb168b")
+	)
+	(bus
+		(pts
+			(xy 86.36 99.06) (xy 93.98 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d35d4c31-48b4-40d1-a0d8-64184a0ca257")
+	)
+	(wire
+		(pts
+			(xy 130.81 48.26) (xy 144.78 48.26)
 		)
 		(stroke
 			(width 0)
@@ -181,9 +467,29 @@
 		)
 		(uuid "d41e3379-9a07-4e22-8198-24fa63338bcc")
 	)
+	(bus
+		(pts
+			(xy 88.9 54.61) (xy 93.98 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f62edb85-7113-45b4-83fa-4c0299db680e")
+	)
 	(wire
 		(pts
-			(xy 81.28 88.9) (xy 81.28 90.17)
+			(xy 96.52 62.23) (xy 144.78 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fed17ad8-be62-4149-9e6b-6147e51dbd05")
+	)
+	(wire
+		(pts
+			(xy 130.81 88.9) (xy 130.81 90.17)
 		)
 		(stroke
 			(width 0)
@@ -191,9 +497,139 @@
 		)
 		(uuid "ffba021d-575e-46dd-9bb1-24b2665c4041")
 	)
-	(hierarchical_label "{MOTOR_ENABLE}"
+	(bus
+		(pts
+			(xy 88.9 54.61) (xy 88.9 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffe5ee86-6af9-41ae-85f2-c6361c8c6f93")
+	)
+	(label "MOTOR_ENABLE.A"
+		(at 96.52 57.15 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ca655a8-0150-4c12-b279-4839b5d84062")
+	)
+	(label "MOTOR_DIR.A"
+		(at 96.52 62.23 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "234d4e95-9eff-40d4-ad90-5c5e8d7213b5")
+	)
+	(label "MOTOR_ENABLE.B"
+		(at 96.52 99.06 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "32e730c2-6215-43e6-a927-7d85559771cb")
+	)
+	(label "MOTOR_CURRENT{A B}"
+		(at 66.04 52.07 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "7384f40c-bb77-4b92-be64-bb68e7e82510")
+	)
+	(label "MOTOR_ENABLE{A B}"
+		(at 66.04 54.61 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "799ae7f1-e762-448e-824a-50dff0a3af54")
+	)
+	(label "MOTOR_CURRENT.A"
+		(at 96.52 54.61 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "8451089d-cea8-4157-aa63-0d3d02267498")
+	)
+	(label "MOTOR_PWM{A B}"
+		(at 66.04 57.15 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c7bd9d7-0dfd-4107-8b1d-8b9d6fcf47d4")
+	)
+	(label "MOTOR_PWM.B"
+		(at 96.52 101.6 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "93c88813-da86-421b-8ff1-d9f7ec061b2d")
+	)
+	(label "MOTOR_PWM.A"
+		(at 96.52 59.69 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "97440d61-0292-4ef2-a45c-7cc1d49037af")
+	)
+	(label "MOTOR_DIR.B"
+		(at 96.52 104.14 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5334c0a-d3f3-4e7c-bf62-eb230e647957")
+	)
+	(label "MOTOR_DIR{A B}"
+		(at 66.04 59.69 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "b94125b0-4919-4754-bbce-81e45d1e8d52")
+	)
+	(label "MOTOR_CURRENT.B"
+		(at 96.52 96.52 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "d09789f8-23a3-4a21-868e-726e86046755")
+	)
+	(hierarchical_label "MOTOR_ENABLE"
 		(shape input)
-		(at 130.81 62.23 180)
+		(at 63.5 54.61 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -202,9 +638,9 @@
 		)
 		(uuid "007624b5-e627-4c84-869d-d1f816642a4c")
 	)
-	(hierarchical_label "{MOTOR_PWM}"
+	(hierarchical_label "MOTOR_PWM"
 		(shape input)
-		(at 130.81 64.77 180)
+		(at 63.5 57.15 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -213,9 +649,9 @@
 		)
 		(uuid "15541168-3c8f-425c-963e-0d10be192cf1")
 	)
-	(hierarchical_label "{MOTOR_DIR}"
+	(hierarchical_label "MOTOR_DIR"
 		(shape input)
-		(at 130.81 67.31 180)
+		(at 63.5 59.69 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -224,49 +660,16 @@
 		)
 		(uuid "33b57a8a-a3d0-4154-8815-c5732fbdcf1a")
 	)
-	(hierarchical_label "{MOTOR_DIR}"
-		(shape input)
-		(at 130.81 111.76 180)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "9b54391f-fbc8-47ea-8837-3e3e2dbb0105")
-	)
-	(hierarchical_label "{MOTOR_ENABLE}"
-		(shape input)
-		(at 130.81 106.68 180)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "bd86d50b-74c5-43d4-8f30-4aab942a2661")
-	)
-	(hierarchical_label "{MOTOR_PWM}"
-		(shape input)
-		(at 130.81 109.22 180)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "ca1ce8a3-5246-4613-88a9-ac5fd84ab9b0")
-	)
-	(hierarchical_label "{MOTOR_CURRENT}"
+	(hierarchical_label "MOTOR_CURRENT"
 		(shape output)
-		(at 81.28 50.8 180)
+		(at 63.5 52.07 180)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
 			(justify right)
 		)
-		(uuid "d3e48d51-3edd-4421-9c79-2fc860275021")
+		(uuid "8a6506d7-0071-464a-9103-5385733c0646")
 	)
 	(hierarchical_label "{MOTOR_A_POWER}"
 		(shape output)
@@ -292,7 +695,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 81.28 88.9 0)
+		(at 130.81 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -301,7 +704,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b2f7021-3440-413f-9d3c-ac28d8c230b3")
 		(property "Reference" "#PWR01602"
-			(at 81.28 92.71 0)
+			(at 130.81 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -310,7 +713,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 81.28 83.82 0)
+			(at 130.81 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -318,7 +721,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 88.9 0)
+			(at 130.81 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -327,7 +730,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 88.9 0)
+			(at 130.81 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -336,7 +739,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 81.28 88.9 0)
+			(at 130.81 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -358,7 +761,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 81.28 45.72 0)
+		(at 130.81 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -367,7 +770,7 @@
 		(fields_autoplaced yes)
 		(uuid "b838aefc-691d-446c-9e79-7a7cb332fcbe")
 		(property "Reference" "#PWR01601"
-			(at 81.28 49.53 0)
+			(at 130.81 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -376,7 +779,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 81.28 40.64 0)
+			(at 130.81 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -384,7 +787,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 45.72 0)
+			(at 130.81 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -393,7 +796,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 45.72 0)
+			(at 130.81 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -402,7 +805,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 81.28 45.72 0)
+			(at 130.81 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -516,6 +919,16 @@
 				(justify right)
 			)
 		)
+		(pin "MOTOR_CURRENT" output
+			(at 144.78 54.61 180)
+			(uuid "758a13b6-f5fa-4590-8578-75e355d93efd")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "lmc"
 				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34/b17df6b5-2319-4e84-a7f7-49f2ff54e606"
@@ -618,154 +1031,20 @@
 				(justify right)
 			)
 		)
+		(pin "MOTOR_CURRENT" output
+			(at 144.78 96.52 180)
+			(uuid "c7a705f6-4348-485a-94b5-16b28ce65fb6")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "lmc"
 				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34/b17df6b5-2319-4e84-a7f7-49f2ff54e606"
 					(page "19")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 92.71 43.18)
-		(size 24.13 10.16)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "c43479bc-dda5-48e4-a5cb-b4f4de8c31f1")
-		(property "Sheetname" "Motor A Current Sensor"
-			(at 92.71 42.4684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "motor_current_sensor.kicad_sch"
-			(at 92.456 52.832 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "IN" input
-			(at 92.71 48.26 180)
-			(uuid "c4aafb47-d4e9-4fef-8426-60124091cb7f")
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(pin "OUT" input
-			(at 116.84 48.26 0)
-			(uuid "e68eed0d-20da-44a2-8031-72adda6e2ceb")
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(pin "CURRENT" output
-			(at 92.71 50.8 180)
-			(uuid "26cf7468-9fbc-4957-8b15-810997b9cb38")
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "lmc"
-				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34/b17df6b5-2319-4e84-a7f7-49f2ff54e606"
-					(page "20")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 92.71 85.09)
-		(size 24.13 10.16)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "e6283d7e-eaff-4a50-9529-c365853346bd")
-		(property "Sheetname" "Motor B Current Sensor"
-			(at 92.71 84.3784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "motor_current_sensor.kicad_sch"
-			(at 92.456 94.742 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "IN" input
-			(at 92.71 90.17 180)
-			(uuid "ef708758-4e1a-40d6-8ee5-a0ce21eb995f")
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(pin "OUT" input
-			(at 116.84 90.17 0)
-			(uuid "6f3a824b-a00a-41e3-bc7b-c0d66831932a")
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(pin "CURRENT" output
-			(at 92.71 92.71 180)
-			(uuid "46789f40-1004-4bfe-9f4e-ecc5da9eab61")
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "lmc"
-				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34/b17df6b5-2319-4e84-a7f7-49f2ff54e606"
-					(page "21")
 				)
 			)
 		)
