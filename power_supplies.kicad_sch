@@ -1519,7 +1519,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 95.25) (xy 49.53 107.95)
+			(xy 49.53 97.79) (xy 49.53 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1679,7 +1679,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 85.09) (xy 29.21 85.09)
+			(xy 26.67 85.09) (xy 29.21 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1799,7 +1799,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 96.52) (xy 39.37 107.95)
+			(xy 39.37 99.06) (xy 39.37 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1859,7 +1859,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 85.09) (xy 39.37 88.9)
+			(xy 39.37 85.09) (xy 39.37 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2049,7 +2049,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 95.25) (xy 59.69 107.95)
+			(xy 59.69 97.79) (xy 59.69 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2089,7 +2089,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 85.09) (xy 49.53 90.17)
+			(xy 49.53 85.09) (xy 49.53 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2129,7 +2129,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 85.09) (xy 59.69 90.17)
+			(xy 59.69 85.09) (xy 59.69 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2150,7 +2150,7 @@
 	)
 	(hierarchical_label "POWER_INPUT"
 		(shape input)
-		(at 24.13 85.09 180)
+		(at 26.67 85.09 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -3148,7 +3148,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 59.69 92.71 0)
+		(at 59.69 95.25 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3158,15 +3158,6 @@
 		(fields_autoplaced yes)
 		(uuid "45471eab-ce73-499a-8469-25d46e75d634")
 		(property "Reference" "C511"
-			(at 62.23 91.4462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100u"
 			(at 62.23 93.9862 0)
 			(effects
 				(font
@@ -3175,8 +3166,17 @@
 				(justify right)
 			)
 		)
+		(property "Value" "100u"
+			(at 62.23 96.5262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(property "Footprint" ""
-			(at 59.69 92.71 0)
+			(at 59.69 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3185,7 +3185,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 92.71 0)
+			(at 59.69 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3194,7 +3194,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 59.69 92.71 0)
+			(at 59.69 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3219,7 +3219,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SM6T30A")
-		(at 39.37 92.71 90)
+		(at 39.37 95.25 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3229,15 +3229,6 @@
 		(fields_autoplaced yes)
 		(uuid "47208541-6c13-4a92-931f-c3f043da810d")
 		(property "Reference" "D501"
-			(at 36.83 91.4399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SM6T30A"
 			(at 36.83 93.9799 90)
 			(effects
 				(font
@@ -3246,8 +3237,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "SM6T30A"
+			(at 36.83 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 44.45 92.71 0)
+			(at 44.45 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3256,7 +3256,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/sm6t.pdf"
-			(at 39.37 91.44 0)
+			(at 39.37 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3265,7 +3265,7 @@
 			)
 		)
 		(property "Description" "600W unidirectional Transil Transient Voltage Suppressor, 30Vrwm, DO-214AA"
-			(at 39.37 92.71 0)
+			(at 39.37 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3701,7 +3701,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 49.53 92.71 0)
+		(at 49.53 95.25 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3711,15 +3711,6 @@
 		(fields_autoplaced yes)
 		(uuid "8d7b942a-94f2-4c06-8105-e84baa327bb6")
 		(property "Reference" "C510"
-			(at 52.07 91.4462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100u"
 			(at 52.07 93.9862 0)
 			(effects
 				(font
@@ -3728,8 +3719,17 @@
 				(justify right)
 			)
 		)
+		(property "Value" "100u"
+			(at 52.07 96.5262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(property "Footprint" ""
-			(at 49.53 92.71 0)
+			(at 49.53 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3738,7 +3738,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 92.71 0)
+			(at 49.53 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3747,7 +3747,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 49.53 92.71 0)
+			(at 49.53 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1817,7 +1817,7 @@
 			(xy 241.3 74.93) (xy 241.3 77.47)
 		)
 		(stroke
-			(width 0)
+			(width 0.635)
 			(type default)
 		)
 		(uuid "2ec4c33b-cc25-4a38-8389-14182bde6fa3")
@@ -1897,7 +1897,7 @@
 			(xy 241.3 137.16) (xy 241.3 139.7)
 		)
 		(stroke
-			(width 0)
+			(width 0.635)
 			(type default)
 		)
 		(uuid "45beb3b1-d057-4e47-831a-12bb6820bcfb")
@@ -2011,16 +2011,6 @@
 			(type default)
 		)
 		(uuid "56cda0ff-4a3d-4b51-b290-40fab11dbc14")
-	)
-	(wire
-		(pts
-			(xy 238.76 74.93) (xy 241.3 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "573ac8fd-0cd9-450e-8c74-b72c4da6892a")
 	)
 	(wire
 		(pts
@@ -2913,7 +2903,7 @@
 			)
 		)
 	)
-	(hierarchical_label "MOTOR_CURRENT"
+	(hierarchical_label "MOTOR_INPUT_CURRENT"
 		(shape output)
 		(at 133.35 81.28 180)
 		(effects
@@ -2946,7 +2936,7 @@
 		)
 		(uuid "627a10ca-0f3e-423a-ac75-03d97e95241d")
 	)
-	(hierarchical_label "CURRENT_SENSE_L"
+	(hierarchical_label "MOTOR_BRIDGE_CURRENT_L"
 		(shape output)
 		(at 204.47 85.09 180)
 		(effects
@@ -2968,7 +2958,7 @@
 		)
 		(uuid "848a0da0-3419-461c-8fc4-d1c5ec0788ac")
 	)
-	(hierarchical_label "CURRENT_SENSE_R"
+	(hierarchical_label "MOTOR_BRIDGE_CURRENT_R"
 		(shape output)
 		(at 204.47 147.32 180)
 		(effects

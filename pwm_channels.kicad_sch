@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(rectangle
-		(start 45.72 110.49)
-		(end 245.11 154.94)
+		(start 45.72 123.19)
+		(end 245.11 165.1)
 		(stroke
 			(width 0)
 			(type default)
@@ -18,8 +18,8 @@
 		(uuid 58d83fe8-c33d-43ec-a013-0210da2967d4)
 	)
 	(rectangle
-		(start 45.72 21.59)
-		(end 245.11 66.04)
+		(start 45.72 39.37)
+		(end 245.11 82.55)
 		(stroke
 			(width 0)
 			(type default)
@@ -30,8 +30,8 @@
 		(uuid 8a5c0c87-2601-40e3-acc0-33e9f6be6402)
 	)
 	(rectangle
-		(start 45.72 66.04)
-		(end 245.11 110.49)
+		(start 45.72 82.55)
+		(end 245.11 123.19)
 		(stroke
 			(width 0)
 			(type default)
@@ -41,9 +41,21 @@
 		)
 		(uuid d030eab1-765b-4694-bd24-75866e12c8a1)
 	)
+	(rectangle
+		(start 45.72 12.7)
+		(end 245.11 39.37)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid df6719ec-0706-4487-aed7-cd558bb0a95e)
+	)
 	(text "LED 3"
 		(exclude_from_sim no)
-		(at 235.712 151.892 0)
+		(at 235.712 162.052 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -53,7 +65,7 @@
 	)
 	(text "LED 1"
 		(exclude_from_sim no)
-		(at 235.204 62.992 0)
+		(at 234.95 79.756 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -61,9 +73,19 @@
 		)
 		(uuid "59174db8-1ca3-4978-b283-fb5b8175cc85")
 	)
+	(text "LED COMMON"
+		(exclude_from_sim no)
+		(at 225.298 36.322 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "5ef97375-b7a1-4934-9dd5-51614f905e58")
+	)
 	(text "LED 2"
 		(exclude_from_sim no)
-		(at 235.204 107.442 0)
+		(at 235.204 120.396 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -71,8 +93,14 @@
 		)
 		(uuid "bca1cae1-8f20-4e22-a125-fa4c57d50ae3")
 	)
+	(junction
+		(at 179.07 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f144d70b-1ac3-4172-8d60-bee39d6c1189")
+	)
 	(bus_entry
-		(at 200.66 60.96)
+		(at 200.66 77.47)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -81,7 +109,7 @@
 		(uuid "01ed042a-3ddd-4f19-bd29-1f582e5b0405")
 	)
 	(bus_entry
-		(at 200.66 25.4)
+		(at 200.66 44.45)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -90,7 +118,7 @@
 		(uuid "1fc417cf-e3d2-425c-b28f-9b19c57a49aa")
 	)
 	(bus_entry
-		(at 78.74 48.26)
+		(at 78.74 66.04)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -99,7 +127,7 @@
 		(uuid "204112db-0f7b-4c8c-a861-8d4c72cb0e7b")
 	)
 	(bus_entry
-		(at 200.66 119.38)
+		(at 200.66 132.08)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -108,7 +136,7 @@
 		(uuid "23df14f3-5920-4c54-8231-eb6ca83078f2")
 	)
 	(bus_entry
-		(at 78.74 78.74)
+		(at 78.74 93.98)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -117,7 +145,7 @@
 		(uuid "336db7a7-ad73-401e-b43f-a8e21c99a9d7")
 	)
 	(bus_entry
-		(at 200.66 43.18)
+		(at 200.66 60.96)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -126,8 +154,8 @@
 		(uuid "3aba5896-1323-4624-8c83-f84ccca5b4e8")
 	)
 	(bus_entry
-		(at 78.74 69.85)
-		(size 2.54 2.54)
+		(at 78.74 87.63)
+		(size 2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -135,7 +163,7 @@
 		(uuid "3e975e74-9b2a-4912-8dd2-1c47d60cdc80")
 	)
 	(bus_entry
-		(at 78.74 114.3)
+		(at 78.74 127)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -144,7 +172,7 @@
 		(uuid "3f64571d-4635-4e40-8c94-8d61ed5d3296")
 	)
 	(bus_entry
-		(at 78.74 149.86)
+		(at 78.74 160.02)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -153,7 +181,7 @@
 		(uuid "482c92e3-9eb0-4208-982d-66c7700eb2eb")
 	)
 	(bus_entry
-		(at 78.74 25.4)
+		(at 78.74 44.45)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -162,7 +190,7 @@
 		(uuid "4b0deda1-849d-4afd-8f37-978ad23b2b05")
 	)
 	(bus_entry
-		(at 78.74 137.16)
+		(at 78.74 148.59)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -171,7 +199,7 @@
 		(uuid "4c4fa32f-22e8-4aaf-aba6-a62b8f934083")
 	)
 	(bus_entry
-		(at 78.74 30.48)
+		(at 78.74 49.53)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -180,7 +208,16 @@
 		(uuid "4de0114c-8f4f-48c3-8ece-991671cd92e7")
 	)
 	(bus_entry
-		(at 200.66 78.74)
+		(at 198.12 20.32)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f3cf028-fcf8-45fa-821c-3cf60af519c9")
+	)
+	(bus_entry
+		(at 200.66 93.98)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -189,7 +226,7 @@
 		(uuid "52cd51f5-3261-42e7-8cee-dfcdc024b85c")
 	)
 	(bus_entry
-		(at 78.74 96.52)
+		(at 78.74 110.49)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -198,7 +235,7 @@
 		(uuid "5d1859a2-52ce-4fa7-af60-9c124a91895a")
 	)
 	(bus_entry
-		(at 200.66 96.52)
+		(at 200.66 110.49)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -207,7 +244,7 @@
 		(uuid "61045873-3ac2-4017-bb30-d68f1e47ad55")
 	)
 	(bus_entry
-		(at 78.74 101.6)
+		(at 78.74 115.57)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -216,7 +253,7 @@
 		(uuid "66ee60f9-5c44-4b5e-ad40-95c905e13747")
 	)
 	(bus_entry
-		(at 200.66 114.3)
+		(at 200.66 127)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -225,7 +262,7 @@
 		(uuid "7823d73f-d1ae-43da-81bb-3a7510991c36")
 	)
 	(bus_entry
-		(at 200.66 149.86)
+		(at 200.66 160.02)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -234,7 +271,7 @@
 		(uuid "82dea38c-569a-4089-a523-e9c7df2142d2")
 	)
 	(bus_entry
-		(at 78.74 119.38)
+		(at 78.74 132.08)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -243,7 +280,7 @@
 		(uuid "87ed13b0-3b7b-42ba-afdc-306ed2fb7891")
 	)
 	(bus_entry
-		(at 200.66 48.26)
+		(at 200.66 66.04)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -252,7 +289,7 @@
 		(uuid "98334b25-f9ee-4747-afb9-f30b39cd6045")
 	)
 	(bus_entry
-		(at 78.74 60.96)
+		(at 78.74 77.47)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -261,7 +298,7 @@
 		(uuid "9c9adfe9-a966-44ac-8d70-13747882e78d")
 	)
 	(bus_entry
-		(at 78.74 43.18)
+		(at 78.74 60.96)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -270,7 +307,7 @@
 		(uuid "9df805d5-c4b0-4cd0-874f-549f86ce39ec")
 	)
 	(bus_entry
-		(at 200.66 101.6)
+		(at 200.66 115.57)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -279,7 +316,7 @@
 		(uuid "a022db56-0b81-4b45-992d-4c4822980e19")
 	)
 	(bus_entry
-		(at 200.66 30.48)
+		(at 200.66 49.53)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -288,7 +325,7 @@
 		(uuid "a3e16a86-68cb-4605-bd7d-dbca114d300b")
 	)
 	(bus_entry
-		(at 200.66 137.16)
+		(at 200.66 148.59)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -297,8 +334,8 @@
 		(uuid "a725ca99-392f-4209-9b0b-50616dc38915")
 	)
 	(bus_entry
-		(at 200.66 69.85)
-		(size -2.54 2.54)
+		(at 200.66 87.63)
+		(size -2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -306,7 +343,7 @@
 		(uuid "af477e0f-e937-4160-bab7-419b0fc59a0b")
 	)
 	(bus_entry
-		(at 200.66 132.08)
+		(at 200.66 143.51)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -315,7 +352,16 @@
 		(uuid "b27c1123-55aa-4a16-a46d-4e98f939d456")
 	)
 	(bus_entry
-		(at 78.74 132.08)
+		(at 198.12 27.94)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4d4ed53-cc5b-4d5c-9eee-d453ac830e9f")
+	)
+	(bus_entry
+		(at 78.74 143.51)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -324,7 +370,7 @@
 		(uuid "d23e5908-59cc-4700-9121-ddeb9bc8cff1")
 	)
 	(bus_entry
-		(at 200.66 83.82)
+		(at 200.66 99.06)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -333,7 +379,7 @@
 		(uuid "d57630bc-eb15-4271-9a36-d0417add8182")
 	)
 	(bus_entry
-		(at 78.74 83.82)
+		(at 78.74 99.06)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -341,9 +387,28 @@
 		)
 		(uuid "e1aa5998-2105-47aa-a722-4aca07f7e87c")
 	)
+	(bus_entry
+		(at 198.12 24.13)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2e3e906-1a84-45ab-b3c9-6b589edaa63e")
+	)
 	(wire
 		(pts
-			(xy 198.12 50.8) (xy 152.4 50.8)
+			(xy 152.4 80.01) (xy 198.12 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00f20200-65f0-4e27-90af-16d43d01d05e")
+	)
+	(wire
+		(pts
+			(xy 152.4 68.58) (xy 198.12 68.58)
 		)
 		(stroke
 			(width 0)
@@ -351,19 +416,9 @@
 		)
 		(uuid "00fab422-5451-478f-bb91-cd296bf1130d")
 	)
-	(wire
-		(pts
-			(xy 198.12 63.5) (xy 152.4 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0175d588-df23-4fe1-9101-46af3baec4dc")
-	)
 	(bus
 		(pts
-			(xy 78.74 132.08) (xy 78.74 137.16)
+			(xy 78.74 143.51) (xy 78.74 148.59)
 		)
 		(stroke
 			(width 0)
@@ -371,29 +426,59 @@
 		)
 		(uuid "0534428a-3c5c-434d-9940-66f1c7393072")
 	)
+	(wire
+		(pts
+			(xy 81.28 101.6) (xy 127 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06a23030-758d-4201-bd80-01b8967d3ce0")
+	)
 	(bus
 		(pts
-			(xy 222.25 69.85) (xy 200.66 69.85)
+			(xy 200.66 44.45) (xy 226.06 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0c2cbbc6-52af-462b-86df-e497eaa80a6e")
+		(uuid "07ffe6d8-b6df-4a5c-8493-d2167fdd3810")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 123.19 68.58) (xy 127 68.58)
+			(xy 198.12 20.32) (xy 204.47 20.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1b4e9d80-2cdc-487c-8f52-ae3d606dcb97")
+		(uuid "0c46b8a6-d407-4739-90b8-cce2ff376ba2")
 	)
 	(wire
 		(pts
-			(xy 198.12 86.36) (xy 152.4 86.36)
+			(xy 179.07 26.67) (xy 156.21 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ee1d1f4-d8d2-4f56-b341-3b914c180868")
+	)
+	(wire
+		(pts
+			(xy 81.28 113.03) (xy 127 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aaea371-bf28-4b95-92b1-4e05c10ca31c")
+	)
+	(wire
+		(pts
+			(xy 152.4 101.6) (xy 198.12 101.6)
 		)
 		(stroke
 			(width 0)
@@ -403,17 +488,37 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 86.36) (xy 127 86.36)
+			(xy 179.07 22.86) (xy 195.58 22.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "28029499-0fcd-4775-b520-d18e444ee6eb")
+		(uuid "221288ef-27a0-4393-96a3-0e49d7df897f")
+	)
+	(bus
+		(pts
+			(xy 200.66 127) (xy 200.66 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2481ebe4-e8c6-44ee-a8af-da30d8157ae1")
 	)
 	(wire
 		(pts
-			(xy 81.28 72.39) (xy 119.38 72.39)
+			(xy 179.07 26.67) (xy 179.07 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2732d7a3-1b98-438a-8e08-32068d521d02")
+	)
+	(wire
+		(pts
+			(xy 81.28 85.09) (xy 127 85.09)
 		)
 		(stroke
 			(width 0)
@@ -423,17 +528,7 @@
 	)
 	(bus
 		(pts
-			(xy 200.66 25.4) (xy 200.66 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "294f4242-5c84-4904-bf1d-cfc092cafddd")
-	)
-	(bus
-		(pts
-			(xy 78.74 78.74) (xy 78.74 83.82)
+			(xy 78.74 93.98) (xy 78.74 99.06)
 		)
 		(stroke
 			(width 0)
@@ -441,9 +536,19 @@
 		)
 		(uuid "29c18e53-93cd-46d3-b98c-cb73621a2edb")
 	)
+	(bus
+		(pts
+			(xy 78.74 44.45) (xy 64.77 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aa11915-25b9-4da4-9775-e173e95c6585")
+	)
 	(wire
 		(pts
-			(xy 198.12 33.02) (xy 152.4 33.02)
+			(xy 152.4 52.07) (xy 198.12 52.07)
 		)
 		(stroke
 			(width 0)
@@ -451,29 +556,19 @@
 		)
 		(uuid "2ccfa9ca-867a-465d-b4b9-94ad6065695e")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 160.02 72.39) (xy 156.21 68.58)
+			(xy 78.74 87.63) (xy 64.77 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2dae3faf-2e97-49e4-b4e2-067b5a56c064")
+		(uuid "2e325760-8cff-4057-8301-6dc0e497a641")
 	)
 	(wire
 		(pts
-			(xy 81.28 139.7) (xy 127 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33a1c0c0-870e-497b-90d8-66c8cd67fcd0")
-	)
-	(wire
-		(pts
-			(xy 81.28 152.4) (xy 127 152.4)
+			(xy 81.28 162.56) (xy 127 162.56)
 		)
 		(stroke
 			(width 0)
@@ -483,7 +578,7 @@
 	)
 	(bus
 		(pts
-			(xy 78.74 48.26) (xy 78.74 60.96)
+			(xy 78.74 66.04) (xy 78.74 77.47)
 		)
 		(stroke
 			(width 0)
@@ -493,17 +588,17 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 104.14) (xy 127 104.14)
+			(xy 81.28 134.62) (xy 127 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "41b5b5ab-a0fc-4195-92c7-b98b01484ab0")
+		(uuid "425a5650-68f3-4066-ac75-3294fbbbf687")
 	)
 	(wire
 		(pts
-			(xy 198.12 27.94) (xy 152.4 27.94)
+			(xy 152.4 46.99) (xy 198.12 46.99)
 		)
 		(stroke
 			(width 0)
@@ -511,19 +606,19 @@
 		)
 		(uuid "426a7d34-5155-43a0-a68e-b46bd90f4bd4")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 81.28 63.5) (xy 127 63.5)
+			(xy 200.66 87.63) (xy 226.06 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "45480a96-3d63-4ba9-91cb-65206b1a00ee")
+		(uuid "486b1421-9e27-4fa6-8ecb-ebd833119a43")
 	)
 	(bus
 		(pts
-			(xy 200.66 96.52) (xy 200.66 101.6)
+			(xy 200.66 110.49) (xy 200.66 115.57)
 		)
 		(stroke
 			(width 0)
@@ -531,19 +626,9 @@
 		)
 		(uuid "4ebbabc4-c068-4c98-a755-9fe8412af5df")
 	)
-	(wire
-		(pts
-			(xy 81.28 81.28) (xy 127 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f9fb233-f193-4cfe-bed8-56cdbe3595b8")
-	)
 	(bus
 		(pts
-			(xy 200.66 48.26) (xy 200.66 60.96)
+			(xy 200.66 66.04) (xy 200.66 77.47)
 		)
 		(stroke
 			(width 0)
@@ -553,7 +638,27 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 152.4) (xy 152.4 152.4)
+			(xy 99.06 27.94) (xy 123.19 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50ee1be7-dae2-46c7-b241-7633e4a8386d")
+	)
+	(wire
+		(pts
+			(xy 81.28 52.07) (xy 127 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52c33958-983b-4bc6-a375-3b52351ab30d")
+	)
+	(wire
+		(pts
+			(xy 198.12 162.56) (xy 152.4 162.56)
 		)
 		(stroke
 			(width 0)
@@ -563,17 +668,17 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 50.8) (xy 127 50.8)
+			(xy 81.28 80.01) (xy 127 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "57beda60-22ac-4aaf-8db4-29bb42d8a4e2")
+		(uuid "56757c6f-277a-463f-8e28-6e2cf32e1814")
 	)
 	(bus
 		(pts
-			(xy 200.66 69.85) (xy 200.66 78.74)
+			(xy 200.66 87.63) (xy 200.66 93.98)
 		)
 		(stroke
 			(width 0)
@@ -581,9 +686,29 @@
 		)
 		(uuid "586c3e21-e1a9-41e0-888c-ff4a2b3231a8")
 	)
+	(wire
+		(pts
+			(xy 81.28 129.54) (xy 127 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5886fdc2-c195-4360-8a71-bfe17dd0f673")
+	)
+	(wire
+		(pts
+			(xy 81.28 96.52) (xy 127 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58e769b5-c461-4997-ae53-bbc516d29192")
+	)
 	(bus
 		(pts
-			(xy 78.74 114.3) (xy 78.74 119.38)
+			(xy 78.74 127) (xy 78.74 132.08)
 		)
 		(stroke
 			(width 0)
@@ -591,19 +716,9 @@
 		)
 		(uuid "592ecb29-a3ca-4db6-9b56-eb4494d60136")
 	)
-	(wire
-		(pts
-			(xy 81.28 27.94) (xy 127 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d4e5817-5181-4d40-a0a1-8e024cb39aa9")
-	)
 	(bus
 		(pts
-			(xy 200.66 83.82) (xy 200.66 96.52)
+			(xy 200.66 99.06) (xy 200.66 110.49)
 		)
 		(stroke
 			(width 0)
@@ -613,17 +728,27 @@
 	)
 	(bus
 		(pts
-			(xy 64.77 25.4) (xy 78.74 25.4)
+			(xy 200.66 49.53) (xy 200.66 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7036ce2b-4b93-4af5-8cdb-9be4b676a6c2")
+		(uuid "6ae63d55-e700-42f4-a609-395b1d16226e")
 	)
 	(wire
 		(pts
-			(xy 198.12 121.92) (xy 152.4 121.92)
+			(xy 99.06 31.75) (xy 123.19 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d7eb0ad-eb7a-4a37-aca0-32422c221f46")
+	)
+	(wire
+		(pts
+			(xy 152.4 134.62) (xy 198.12 134.62)
 		)
 		(stroke
 			(width 0)
@@ -633,17 +758,17 @@
 	)
 	(bus
 		(pts
-			(xy 222.25 25.4) (xy 200.66 25.4)
+			(xy 200.66 44.45) (xy 200.66 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "788bb4bc-7529-44a0-b68c-a80efba37ca1")
+		(uuid "7ca522a5-cea3-4e6f-be7c-aa8236ababeb")
 	)
 	(bus
 		(pts
-			(xy 78.74 30.48) (xy 78.74 43.18)
+			(xy 78.74 49.53) (xy 78.74 60.96)
 		)
 		(stroke
 			(width 0)
@@ -651,29 +776,9 @@
 		)
 		(uuid "80bea619-88ce-4508-956f-48d3ca539512")
 	)
-	(wire
-		(pts
-			(xy 119.38 72.39) (xy 123.19 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89e2261d-48e5-4ee2-bf8b-091fe7795420")
-	)
 	(bus
 		(pts
-			(xy 200.66 114.3) (xy 200.66 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e320dda-291e-47f3-99d8-9e87acb476c0")
-	)
-	(bus
-		(pts
-			(xy 200.66 78.74) (xy 200.66 83.82)
+			(xy 200.66 93.98) (xy 200.66 99.06)
 		)
 		(stroke
 			(width 0)
@@ -683,17 +788,7 @@
 	)
 	(bus
 		(pts
-			(xy 64.77 69.85) (xy 78.74 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9163876c-468a-4526-b260-d22a1d5fe10f")
-	)
-	(bus
-		(pts
-			(xy 200.66 43.18) (xy 200.66 48.26)
+			(xy 200.66 60.96) (xy 200.66 66.04)
 		)
 		(stroke
 			(width 0)
@@ -703,7 +798,7 @@
 	)
 	(bus
 		(pts
-			(xy 200.66 119.38) (xy 200.66 132.08)
+			(xy 200.66 132.08) (xy 200.66 143.51)
 		)
 		(stroke
 			(width 0)
@@ -713,17 +808,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 68.58) (xy 152.4 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9762bbf4-9166-4ebc-befd-a0cbb7477209")
-	)
-	(wire
-		(pts
-			(xy 198.12 45.72) (xy 152.4 45.72)
+			(xy 152.4 63.5) (xy 198.12 63.5)
 		)
 		(stroke
 			(width 0)
@@ -733,7 +818,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 81.28) (xy 152.4 81.28)
+			(xy 152.4 96.52) (xy 198.12 96.52)
 		)
 		(stroke
 			(width 0)
@@ -741,19 +826,9 @@
 		)
 		(uuid "9b5928f9-3566-48cd-8167-7bc4e2927624")
 	)
-	(wire
-		(pts
-			(xy 81.28 134.62) (xy 127 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b5e3758-5302-433b-b8fc-032f2c65dba6")
-	)
 	(bus
 		(pts
-			(xy 78.74 83.82) (xy 78.74 96.52)
+			(xy 78.74 99.06) (xy 78.74 110.49)
 		)
 		(stroke
 			(width 0)
@@ -763,7 +838,7 @@
 	)
 	(bus
 		(pts
-			(xy 78.74 69.85) (xy 78.74 78.74)
+			(xy 78.74 87.63) (xy 78.74 93.98)
 		)
 		(stroke
 			(width 0)
@@ -773,17 +848,17 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 99.06) (xy 127 99.06)
+			(xy 81.28 146.05) (xy 127 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1dbee0f-99f1-42f8-95fc-808834decd8f")
+		(uuid "9f03f336-7986-4a08-8687-2a16b790f0a8")
 	)
 	(bus
 		(pts
-			(xy 222.25 114.3) (xy 200.66 114.3)
+			(xy 200.66 127) (xy 226.06 127)
 		)
 		(stroke
 			(width 0)
@@ -791,9 +866,19 @@
 		)
 		(uuid "a3c52c49-9e94-4285-a730-06cb33eee4eb")
 	)
+	(wire
+		(pts
+			(xy 179.07 22.86) (xy 179.07 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a42aaa72-ebed-466c-a0da-92ac2c12fc6e")
+	)
 	(bus
 		(pts
-			(xy 78.74 137.16) (xy 78.74 149.86)
+			(xy 78.74 148.59) (xy 78.74 160.02)
 		)
 		(stroke
 			(width 0)
@@ -803,7 +888,7 @@
 	)
 	(bus
 		(pts
-			(xy 78.74 43.18) (xy 78.74 48.26)
+			(xy 78.74 60.96) (xy 78.74 66.04)
 		)
 		(stroke
 			(width 0)
@@ -813,17 +898,17 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 72.39) (xy 160.02 72.39)
+			(xy 99.06 22.86) (xy 123.19 22.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "af693dc1-463e-456f-b2e7-2c9c36c6a847")
+		(uuid "ae7f3fa6-9ab8-4ee7-a27f-afc54b089973")
 	)
 	(bus
 		(pts
-			(xy 200.66 132.08) (xy 200.66 137.16)
+			(xy 200.66 143.51) (xy 200.66 148.59)
 		)
 		(stroke
 			(width 0)
@@ -831,19 +916,9 @@
 		)
 		(uuid "b1ecfe84-5a97-4241-90b9-01d7456db118")
 	)
-	(wire
-		(pts
-			(xy 81.28 121.92) (xy 127 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b73b4d0e-c806-43c9-92e7-e197733bf44b")
-	)
 	(bus
 		(pts
-			(xy 78.74 119.38) (xy 78.74 132.08)
+			(xy 78.74 132.08) (xy 78.74 143.51)
 		)
 		(stroke
 			(width 0)
@@ -853,7 +928,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 99.06) (xy 152.4 99.06)
+			(xy 152.4 113.03) (xy 198.12 113.03)
 		)
 		(stroke
 			(width 0)
@@ -861,29 +936,69 @@
 		)
 		(uuid "c085bdb9-80dc-4cb7-af41-98e47bf8def3")
 	)
+	(wire
+		(pts
+			(xy 81.28 63.5) (xy 127 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c17b7473-432f-4109-b72a-ffe9acc2afab")
+	)
+	(wire
+		(pts
+			(xy 179.07 30.48) (xy 195.58 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5f1cf53-efbe-4974-b1a8-9adbd637b347")
+	)
 	(bus
 		(pts
-			(xy 64.77 114.3) (xy 78.74 114.3)
+			(xy 78.74 127) (xy 64.77 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c804c16b-18ea-4f7e-902d-d01a8bbf5207")
+		(uuid "c8540849-4422-448e-a72a-0ed618469301")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 81.28 116.84) (xy 127 116.84)
+			(xy 198.12 24.13) (xy 204.47 24.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc905596-cdc3-405e-81c5-4e2e2d21ab19")
+		(uuid "cc7052e7-bd7a-4571-bc9d-96d1273dc5e7")
 	)
 	(wire
 		(pts
-			(xy 198.12 116.84) (xy 152.4 116.84)
+			(xy 179.07 26.67) (xy 195.58 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6ecc24f-4915-4497-bfec-68e8424e1679")
+	)
+	(wire
+		(pts
+			(xy 81.28 46.99) (xy 127 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8202671-c0da-4a6a-a9e2-1257cc9ab190")
+	)
+	(wire
+		(pts
+			(xy 152.4 129.54) (xy 198.12 129.54)
 		)
 		(stroke
 			(width 0)
@@ -891,19 +1006,9 @@
 		)
 		(uuid "d863f6ab-007a-46a2-a07d-118c87ed3a24")
 	)
-	(wire
-		(pts
-			(xy 81.28 33.02) (xy 127 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dacc4dc2-4df0-4be6-a754-2520796a378a")
-	)
 	(bus
 		(pts
-			(xy 78.74 96.52) (xy 78.74 101.6)
+			(xy 78.74 110.49) (xy 78.74 115.57)
 		)
 		(stroke
 			(width 0)
@@ -913,7 +1018,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 104.14) (xy 152.4 104.14)
+			(xy 152.4 118.11) (xy 198.12 118.11)
 		)
 		(stroke
 			(width 0)
@@ -923,17 +1028,27 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 45.72) (xy 127 45.72)
+			(xy 152.4 85.09) (xy 198.12 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e56164d9-4cba-4b83-acd1-2425ef85441e")
+		(uuid "e22e1c29-c993-4d88-b746-e657d878d166")
+	)
+	(bus
+		(pts
+			(xy 198.12 27.94) (xy 204.47 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e44d9ff5-f334-4202-abe3-631f53281613")
 	)
 	(wire
 		(pts
-			(xy 198.12 134.62) (xy 152.4 134.62)
+			(xy 152.4 146.05) (xy 198.12 146.05)
 		)
 		(stroke
 			(width 0)
@@ -943,7 +1058,7 @@
 	)
 	(bus
 		(pts
-			(xy 200.66 137.16) (xy 200.66 149.86)
+			(xy 200.66 148.59) (xy 200.66 160.02)
 		)
 		(stroke
 			(width 0)
@@ -953,7 +1068,17 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 139.7) (xy 152.4 139.7)
+			(xy 81.28 151.13) (xy 127 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0fbd777-70ae-4d2d-aa54-d27350c0e379")
+	)
+	(wire
+		(pts
+			(xy 152.4 151.13) (xy 198.12 151.13)
 		)
 		(stroke
 			(width 0)
@@ -961,19 +1086,29 @@
 		)
 		(uuid "f204e746-fe1e-4d57-bc82-0c66d8c47609")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 200.66 30.48) (xy 200.66 43.18)
+			(xy 99.06 25.4) (xy 123.19 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f40826bd-06c6-4765-96b3-736a289a7e33")
+		(uuid "f2603bde-05b1-4d55-b197-ac4720967e0a")
+	)
+	(wire
+		(pts
+			(xy 81.28 68.58) (xy 127 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f866c025-5bff-4d63-976e-b9f88099c61e")
 	)
 	(bus
 		(pts
-			(xy 78.74 25.4) (xy 78.74 30.48)
+			(xy 78.74 44.45) (xy 78.74 49.53)
 		)
 		(stroke
 			(width 0)
@@ -981,8 +1116,18 @@
 		)
 		(uuid "f9d717bb-3f27-48ee-99c1-8eb6144bef1c")
 	)
-	(label "LED_POWER_3{R G B W Y}"
-		(at 200.66 114.3 0)
+	(wire
+		(pts
+			(xy 81.28 118.11) (xy 127 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbc080c8-c40c-4119-9def-436b5d1bd86b")
+	)
+	(label "LED_POWER_3{R G B W Y C}"
+		(at 200.66 127 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -992,7 +1137,7 @@
 		(uuid "00f8f3f8-a612-4236-9866-96b8b41b2a87")
 	)
 	(label "LED_POWER_3.B"
-		(at 196.85 134.62 180)
+		(at 196.85 146.05 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1002,7 +1147,7 @@
 		(uuid "09550693-b115-4b94-9ede-3ba2ca3606ae")
 	)
 	(label "LED_PIN_3.Y"
-		(at 82.55 152.4 0)
+		(at 82.55 162.56 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1012,7 +1157,7 @@
 		(uuid "0fda5e3d-65a0-4e19-aaf1-89dc87d89062")
 	)
 	(label "LED_PIN_1.R"
-		(at 82.55 27.94 0)
+		(at 82.55 46.99 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1022,7 +1167,7 @@
 		(uuid "10cadec9-32e8-4ebc-a69a-ee3e8eb0967f")
 	)
 	(label "LED_POWER_3.R"
-		(at 196.85 116.84 180)
+		(at 196.85 129.54 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1032,7 +1177,7 @@
 		(uuid "2bccf590-79f8-4f8f-a896-30914fddd012")
 	)
 	(label "LED_POWER_1.B"
-		(at 196.85 45.72 180)
+		(at 196.85 63.5 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1042,7 +1187,7 @@
 		(uuid "32b6592e-a5d4-4407-8339-2221f04260e7")
 	)
 	(label "LED_POWER_2.B"
-		(at 196.85 86.36 180)
+		(at 196.85 101.6 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1052,7 +1197,7 @@
 		(uuid "3e982bbd-8626-4544-9811-f7bd5a303ef3")
 	)
 	(label "LED_POWER_2.R"
-		(at 196.85 72.39 180)
+		(at 196.85 85.09 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1061,8 +1206,8 @@
 		)
 		(uuid "40021f8f-03be-4adc-92ca-4ba0845a54ef")
 	)
-	(label "LED_POWER_2{R G B W Y}"
-		(at 200.66 69.85 0)
+	(label "LED_POWER_2{R G B W Y C}"
+		(at 201.93 87.63 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1072,7 +1217,7 @@
 		(uuid "53cc1606-e688-4850-b96e-d72441c25787")
 	)
 	(label "LED_POWER_1.G"
-		(at 196.85 33.02 180)
+		(at 196.85 52.07 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1082,7 +1227,7 @@
 		(uuid "6eff8d52-462e-429e-92c1-1bd8bf03654e")
 	)
 	(label "LED_PIN_2.Y"
-		(at 82.55 104.14 0)
+		(at 82.55 118.11 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1092,7 +1237,7 @@
 		(uuid "759eb10c-8f57-4a9d-878d-c0892dab6486")
 	)
 	(label "LED_PIN_1.W"
-		(at 82.55 50.8 0)
+		(at 82.55 68.58 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1102,7 +1247,7 @@
 		(uuid "764b6241-a918-4249-bf70-02ad5da6fb15")
 	)
 	(label "LED_POWER_2.W"
-		(at 196.85 99.06 180)
+		(at 196.85 113.03 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1112,7 +1257,7 @@
 		(uuid "83f74300-903d-4cdf-acf2-6fca8da06968")
 	)
 	(label "LED_POWER_2.G"
-		(at 196.85 81.28 180)
+		(at 196.85 96.52 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1122,7 +1267,7 @@
 		(uuid "86f7bb84-b40a-4b05-a599-ad33d45f3568")
 	)
 	(label "LED_PIN_1.G"
-		(at 82.55 33.02 0)
+		(at 82.55 52.07 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1131,8 +1276,28 @@
 		)
 		(uuid "8b8d3f94-1152-4f87-b035-cef7d62c3a20")
 	)
+	(label "LED_POWER_1.C"
+		(at 182.88 22.86 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "90a1c98d-fc77-4f81-89a3-709cda895c50")
+	)
+	(label "LED_POWER_3.C"
+		(at 182.88 30.48 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "92f2648b-d0e2-4d33-aeb3-c1c0602ae17c")
+	)
 	(label "LED_POWER_1.R"
-		(at 196.85 27.94 180)
+		(at 196.85 46.99 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1141,8 +1306,8 @@
 		)
 		(uuid "a05750df-45e7-465f-8b6c-2c17dbcaff21")
 	)
-	(label "LED_POWER_1{R G B W Y}"
-		(at 200.66 25.4 0)
+	(label "LED_POWER_1{R G B W Y C}"
+		(at 201.93 44.45 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1152,7 +1317,7 @@
 		(uuid "a59db2f6-6ab6-4029-84ac-fe3d9ee9f7de")
 	)
 	(label "LED_POWER_3.Y"
-		(at 196.85 152.4 180)
+		(at 196.85 162.56 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1162,7 +1327,7 @@
 		(uuid "a65b209c-c486-460f-9726-4091b7a5d46e")
 	)
 	(label "LED_PIN_1.Y"
-		(at 82.55 63.5 0)
+		(at 82.55 80.01 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1172,7 +1337,7 @@
 		(uuid "a7a77ee5-99d0-4fb0-8d19-6b01ee36551a")
 	)
 	(label "LED_PIN_3.W"
-		(at 82.55 139.7 0)
+		(at 82.55 151.13 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1182,7 +1347,7 @@
 		(uuid "a9ca6977-fac7-4090-8723-2f8d883de2b2")
 	)
 	(label "LED_PIN_2.B"
-		(at 82.55 86.36 0)
+		(at 82.55 101.6 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1192,7 +1357,7 @@
 		(uuid "aada5e44-d159-4cd3-85e6-8306e2593406")
 	)
 	(label "LED_PIN_3.G"
-		(at 82.55 121.92 0)
+		(at 82.55 134.62 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1202,7 +1367,7 @@
 		(uuid "ac2d9020-7000-4aa9-b6a7-133a309acb89")
 	)
 	(label "LED_PIN_2.G"
-		(at 82.55 81.28 0)
+		(at 82.55 96.52 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1211,8 +1376,18 @@
 		)
 		(uuid "ae00a002-dc73-48e1-839e-0eb37abdaaf5")
 	)
+	(label "LED_POWER_2.C"
+		(at 182.88 26.67 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "b09e99bf-6d78-4823-9bf7-8ba1650290fe")
+	)
 	(label "LED_PIN_1.B"
-		(at 82.55 45.72 0)
+		(at 82.55 63.5 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1222,7 +1397,7 @@
 		(uuid "b12f90c9-fecd-4553-94e3-bae4de843eb1")
 	)
 	(label "LED_PIN_2.R"
-		(at 82.55 72.39 0)
+		(at 82.55 85.09 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1232,7 +1407,7 @@
 		(uuid "b7273fa7-bbb9-4ea0-bd55-ad1124e454d4")
 	)
 	(label "LED_PIN_2.W"
-		(at 82.55 99.06 0)
+		(at 82.55 113.03 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1242,7 +1417,7 @@
 		(uuid "bab49876-b4c8-4eb5-8d16-d6e71aae0570")
 	)
 	(label "LED_POWER_1.W"
-		(at 196.85 50.8 180)
+		(at 196.85 68.58 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1252,7 +1427,7 @@
 		(uuid "c955d8c2-005f-4bdf-8e8a-1bc7a19033fc")
 	)
 	(label "LED_PIN_3.R"
-		(at 82.55 116.84 0)
+		(at 82.55 129.54 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1262,7 +1437,7 @@
 		(uuid "d104a339-b069-488a-8168-4df2070ea8e0")
 	)
 	(label "LED_POWER_3.G"
-		(at 196.85 121.92 180)
+		(at 196.85 134.62 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1272,7 +1447,7 @@
 		(uuid "e201792a-9894-4d98-aff9-363ea6d592ec")
 	)
 	(label "LED_PIN_3.B"
-		(at 82.55 134.62 0)
+		(at 82.55 146.05 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1282,7 +1457,7 @@
 		(uuid "f376df66-976b-4e36-8dd3-01f29b8ddd52")
 	)
 	(label "LED_POWER_1.Y"
-		(at 196.85 63.5 180)
+		(at 196.85 80.01 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1292,7 +1467,7 @@
 		(uuid "f7990df1-75dd-455f-a0b7-9e3f7e384369")
 	)
 	(label "LED_POWER_2.Y"
-		(at 196.85 104.14 180)
+		(at 196.85 118.11 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1302,7 +1477,7 @@
 		(uuid "fd83598f-2b55-48b1-b9b1-2022d6078253")
 	)
 	(label "LED_POWER_3.W"
-		(at 196.85 139.7 180)
+		(at 196.85 151.13 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1311,9 +1486,20 @@
 		)
 		(uuid "fe525497-6f4d-42c2-9034-eb46541a7d04")
 	)
+	(hierarchical_label "LED_CURRENT"
+		(shape output)
+		(at 99.06 31.75 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "10bc7e8a-9704-487c-80dd-fd3c42c674df")
+	)
 	(hierarchical_label "LED_PWM_2"
 		(shape input)
-		(at 64.77 69.85 180)
+		(at 64.77 87.63 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1324,7 +1510,7 @@
 	)
 	(hierarchical_label "LED_POWER_1"
 		(shape output)
-		(at 222.25 25.4 0)
+		(at 226.06 44.45 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1333,9 +1519,20 @@
 		)
 		(uuid "36178a39-f420-4708-808f-4a7bd67dedd5")
 	)
+	(hierarchical_label "~{FAULT_RESET}"
+		(shape input)
+		(at 99.06 27.94 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "389dfa83-b5a6-4790-84b0-f66ee2914ab6")
+	)
 	(hierarchical_label "LED_PWM_1"
 		(shape input)
-		(at 64.77 25.4 180)
+		(at 64.77 44.45 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1344,20 +1541,31 @@
 		)
 		(uuid "5d6819f6-3878-465e-a55b-8e3af673177f")
 	)
-	(hierarchical_label "LED_POWER_2"
+	(hierarchical_label "LED_POWER_3"
 		(shape output)
-		(at 222.25 69.85 0)
+		(at 204.47 27.94 0)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
 			(justify left)
 		)
-		(uuid "6c35b43c-060c-4b00-97be-b5df27c28446")
+		(uuid "5e1619b5-3389-47cf-9c5a-466095b0d2c9")
+	)
+	(hierarchical_label "CURRENT_LIMIT_SET"
+		(shape input)
+		(at 99.06 22.86 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "7381920c-e9f6-4104-9b1f-9cccf4f5f735")
 	)
 	(hierarchical_label "LED_POWER_3"
 		(shape output)
-		(at 222.25 114.3 0)
+		(at 226.06 127 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1366,9 +1574,31 @@
 		)
 		(uuid "a2da467b-4a27-4e04-bd05-e44be56432fb")
 	)
+	(hierarchical_label "LED_POWER_2"
+		(shape output)
+		(at 226.06 87.63 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "c1de8899-bbe7-4f0a-80a5-b0fc6ebdeb87")
+	)
+	(hierarchical_label "LED_POWER_1"
+		(shape output)
+		(at 204.47 20.32 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "d7a0ac95-9c93-4daa-8826-614a48be9b53")
+	)
 	(hierarchical_label "LED_PWM_3"
 		(shape input)
-		(at 64.77 114.3 180)
+		(at 64.77 127 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1377,8 +1607,121 @@
 		)
 		(uuid "d85a43d2-2a81-43cd-913f-542cd8c7c52d")
 	)
+	(hierarchical_label "~{FAULT}"
+		(shape output)
+		(at 99.06 25.4 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "e8251b6f-1d97-41b4-a144-20f7c2796a41")
+	)
+	(hierarchical_label "LED_POWER_2"
+		(shape output)
+		(at 204.47 24.13 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "eb3632a7-6648-4a18-bf89-50f92668c1fa")
+	)
 	(sheet
-		(at 127 130.81)
+		(at 123.19 19.05)
+		(size 33.02 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "265daf3c-e556-4792-b025-61a1928252a3")
+		(property "Sheetname" "LED Current Sense"
+			(at 123.19 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led_current_sense.kicad_sch"
+			(at 123.19 37.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CURRENT_LIMIT_SET" input
+			(at 123.19 22.86 180)
+			(uuid "3266c7fe-1b65-487f-add7-7f9e27db2e51")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_CURRENT" output
+			(at 123.19 31.75 180)
+			(uuid "91b9986b-2c38-4148-9fdd-385a027854e8")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_POWER_OUTPUT" output
+			(at 156.21 26.67 0)
+			(uuid "7b4a18d3-5c1c-4762-aefd-df40c6827733")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{FAULT_RESET}" input
+			(at 123.19 27.94 180)
+			(uuid "49a6b848-c3d1-4538-bee9-56ffa65cb1aa")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{FAULT}" input
+			(at 123.19 25.4 180)
+			(uuid "7954efba-7f3f-4a9b-8a57-d8ab1fed1be4")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "lmc"
+				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34/a11fa67e-26bd-4e7e-be77-e56541e95d03"
+					(page "28")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 142.24)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1394,7 +1737,7 @@
 		)
 		(uuid "2b2138fb-9a2f-49b7-87dd-8600e7cd54f5")
 		(property "Sheetname" "LED Power Control 6"
-			(at 127 130.0984 0)
+			(at 127 141.5284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1403,16 +1746,17 @@
 			)
 		)
 		(property "Sheetfile" "led_power_control.kicad_sch"
-			(at 127 144.0946 0)
+			(at 127 155.5246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "LED_CATHODE_A" input
-			(at 152.4 134.62 0)
+			(at 152.4 146.05 0)
 			(uuid "66970ec2-9222-420d-95c0-217f03f23757")
 			(effects
 				(font
@@ -1422,7 +1766,7 @@
 			)
 		)
 		(pin "LED_CATHODE_B" input
-			(at 152.4 139.7 0)
+			(at 152.4 151.13 0)
 			(uuid "422abbf6-494c-4ed1-a284-7e049671fee4")
 			(effects
 				(font
@@ -1432,7 +1776,7 @@
 			)
 		)
 		(pin "PWM_A" input
-			(at 127 134.62 180)
+			(at 127 146.05 180)
 			(uuid "038e4371-978e-47e1-82d4-53c3e246e95c")
 			(effects
 				(font
@@ -1442,7 +1786,7 @@
 			)
 		)
 		(pin "PWM_B" input
-			(at 127 139.7 180)
+			(at 127 151.13 180)
 			(uuid "138c3f0a-80b4-4919-bad7-2feb82a0b59b")
 			(effects
 				(font
@@ -1460,7 +1804,7 @@
 		)
 	)
 	(sheet
-		(at 127 95.25)
+		(at 127 109.22)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1476,7 +1820,7 @@
 		)
 		(uuid "4c7ed55e-b43d-4554-a8df-d57a3eb6e340")
 		(property "Sheetname" "LED Power Control 4"
-			(at 127 94.5384 0)
+			(at 127 108.5084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1485,16 +1829,17 @@
 			)
 		)
 		(property "Sheetfile" "led_power_control.kicad_sch"
-			(at 127 108.5346 0)
+			(at 127 122.5046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "LED_CATHODE_A" input
-			(at 152.4 99.06 0)
+			(at 152.4 113.03 0)
 			(uuid "d7ca23ce-db37-4041-8b2b-529a3c9ebc83")
 			(effects
 				(font
@@ -1504,7 +1849,7 @@
 			)
 		)
 		(pin "LED_CATHODE_B" input
-			(at 152.4 104.14 0)
+			(at 152.4 118.11 0)
 			(uuid "b85edda3-9120-4c07-bfeb-34b07ac5c566")
 			(effects
 				(font
@@ -1514,7 +1859,7 @@
 			)
 		)
 		(pin "PWM_A" input
-			(at 127 99.06 180)
+			(at 127 113.03 180)
 			(uuid "013a685a-fa58-4e0a-90ee-0680cf0d51fb")
 			(effects
 				(font
@@ -1524,7 +1869,7 @@
 			)
 		)
 		(pin "PWM_B" input
-			(at 127 104.14 180)
+			(at 127 118.11 180)
 			(uuid "e1b7100d-81a2-46ae-ab7c-161911ad218d")
 			(effects
 				(font
@@ -1542,7 +1887,7 @@
 		)
 	)
 	(sheet
-		(at 127 148.59)
+		(at 127 158.75)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1558,7 +1903,7 @@
 		)
 		(uuid "5ffca80d-aff1-4c20-8ffa-1e14bc2cf226")
 		(property "Sheetname" "LED Power Control 7"
-			(at 127 147.8784 0)
+			(at 127 158.0384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1567,16 +1912,17 @@
 			)
 		)
 		(property "Sheetfile" "led_power_control.kicad_sch"
-			(at 127 161.8746 0)
+			(at 127 172.0346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "LED_CATHODE_A" input
-			(at 152.4 152.4 0)
+			(at 152.4 162.56 0)
 			(uuid "e594f125-5501-4852-983b-9ee3f49b7202")
 			(effects
 				(font
@@ -1586,7 +1932,7 @@
 			)
 		)
 		(pin "LED_CATHODE_B" input
-			(at 152.4 157.48 0)
+			(at 152.4 167.64 0)
 			(uuid "9fbfa230-0bda-48f2-bfaf-c3c356edf0f1")
 			(effects
 				(font
@@ -1596,7 +1942,7 @@
 			)
 		)
 		(pin "PWM_A" input
-			(at 127 152.4 180)
+			(at 127 162.56 180)
 			(uuid "eeac048e-0896-4d6e-a48f-dc269cfe009d")
 			(effects
 				(font
@@ -1606,7 +1952,7 @@
 			)
 		)
 		(pin "PWM_B" input
-			(at 127 157.48 180)
+			(at 127 167.64 180)
 			(uuid "2571d8b8-65df-4126-9f02-37e182ee67bc")
 			(effects
 				(font
@@ -1624,7 +1970,7 @@
 		)
 	)
 	(sheet
-		(at 127 77.47)
+		(at 127 92.71)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1640,7 +1986,7 @@
 		)
 		(uuid "a97f7a76-3c12-4746-afe3-7e292676a98c")
 		(property "Sheetname" "LED Power Control 3"
-			(at 127 76.7584 0)
+			(at 127 91.9984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1649,16 +1995,17 @@
 			)
 		)
 		(property "Sheetfile" "led_power_control.kicad_sch"
-			(at 127 90.7546 0)
+			(at 127 105.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "LED_CATHODE_A" input
-			(at 152.4 81.28 0)
+			(at 152.4 96.52 0)
 			(uuid "079a238b-2275-44ca-8919-e08c105dc779")
 			(effects
 				(font
@@ -1668,7 +2015,7 @@
 			)
 		)
 		(pin "LED_CATHODE_B" input
-			(at 152.4 86.36 0)
+			(at 152.4 101.6 0)
 			(uuid "4032d085-bafe-4fbd-af7e-e6a2392c835b")
 			(effects
 				(font
@@ -1678,7 +2025,7 @@
 			)
 		)
 		(pin "PWM_A" input
-			(at 127 81.28 180)
+			(at 127 96.52 180)
 			(uuid "96b1c65e-5784-4ef0-b1b8-e7fe2f2eeb16")
 			(effects
 				(font
@@ -1688,7 +2035,7 @@
 			)
 		)
 		(pin "PWM_B" input
-			(at 127 86.36 180)
+			(at 127 101.6 180)
 			(uuid "b3e3a7ef-e73d-4c70-93f0-e9dc81d08975")
 			(effects
 				(font
@@ -1701,170 +2048,6 @@
 			(project "lmc"
 				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34/a11fa67e-26bd-4e7e-be77-e56541e95d03"
 					(page "23")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 127 41.91)
-		(size 25.4 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "acbd82b4-c31d-46cd-a8aa-114a1002de38")
-		(property "Sheetname" "LED Power Control 1"
-			(at 127 41.1984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "led_power_control.kicad_sch"
-			(at 127 55.1946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "LED_CATHODE_A" input
-			(at 152.4 45.72 0)
-			(uuid "9720c0eb-ec2e-4b87-8445-0767d6074bca")
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(pin "LED_CATHODE_B" input
-			(at 152.4 50.8 0)
-			(uuid "a258f536-b1b0-4784-9c0a-4813b991c9e2")
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(pin "PWM_A" input
-			(at 127 45.72 180)
-			(uuid "43d1f15a-8b81-4cf4-bf4c-a4915a1d15c7")
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(pin "PWM_B" input
-			(at 127 50.8 180)
-			(uuid "d1e2cf6f-d8b5-4623-b244-c154b32dab81")
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "lmc"
-				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34/a11fa67e-26bd-4e7e-be77-e56541e95d03"
-					(page "21")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 127 24.13)
-		(size 25.4 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "b6d4aa40-33a4-40f8-ab0c-db5e6caf51ca")
-		(property "Sheetname" "LED Power Control 0"
-			(at 127 23.4184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "led_power_control.kicad_sch"
-			(at 127 37.4146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "LED_CATHODE_A" input
-			(at 152.4 27.94 0)
-			(uuid "9ae9de3c-4638-4531-8d4e-2a1ce332855a")
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(pin "LED_CATHODE_B" input
-			(at 152.4 33.02 0)
-			(uuid "90302890-968f-4f10-a851-e9496f2285bc")
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(pin "PWM_A" input
-			(at 127 27.94 180)
-			(uuid "3414e102-94c4-43b4-8403-bc37490b79ad")
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(pin "PWM_B" input
-			(at 127 33.02 180)
-			(uuid "8c6aa087-7082-4bd0-8c6b-eec14ffaf130")
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "lmc"
-				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34/a11fa67e-26bd-4e7e-be77-e56541e95d03"
-					(page "20")
 				)
 			)
 		)
@@ -1884,8 +2067,8 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "e7f8a237-8f48-418f-853c-ca9ca3d3480b")
-		(property "Sheetname" "LED Power Control 2"
+		(uuid "acbd82b4-c31d-46cd-a8aa-114a1002de38")
+		(property "Sheetname" "LED Power Control 1"
 			(at 127 58.9784 0)
 			(effects
 				(font
@@ -1901,11 +2084,12 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "LED_CATHODE_A" input
 			(at 152.4 63.5 0)
-			(uuid "b460db1b-5500-4c06-bc13-9500c5dd4583")
+			(uuid "9720c0eb-ec2e-4b87-8445-0767d6074bca")
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -1915,7 +2099,7 @@
 		)
 		(pin "LED_CATHODE_B" input
 			(at 152.4 68.58 0)
-			(uuid "b9dbca18-c547-44f1-a534-0a0bec4596b3")
+			(uuid "a258f536-b1b0-4784-9c0a-4813b991c9e2")
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -1925,7 +2109,7 @@
 		)
 		(pin "PWM_A" input
 			(at 127 63.5 180)
-			(uuid "8fe70ded-32f6-4171-8e74-4a197b86346f")
+			(uuid "43d1f15a-8b81-4cf4-bf4c-a4915a1d15c7")
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -1935,6 +2119,172 @@
 		)
 		(pin "PWM_B" input
 			(at 127 68.58 180)
+			(uuid "d1e2cf6f-d8b5-4623-b244-c154b32dab81")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "lmc"
+				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34/a11fa67e-26bd-4e7e-be77-e56541e95d03"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 43.18)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b6d4aa40-33a4-40f8-ab0c-db5e6caf51ca")
+		(property "Sheetname" "LED Power Control 0"
+			(at 127 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led_power_control.kicad_sch"
+			(at 127 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "LED_CATHODE_A" input
+			(at 152.4 46.99 0)
+			(uuid "9ae9de3c-4638-4531-8d4e-2a1ce332855a")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED_CATHODE_B" input
+			(at 152.4 52.07 0)
+			(uuid "90302890-968f-4f10-a851-e9496f2285bc")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM_A" input
+			(at 127 46.99 180)
+			(uuid "3414e102-94c4-43b4-8403-bc37490b79ad")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM_B" input
+			(at 127 52.07 180)
+			(uuid "8c6aa087-7082-4bd0-8c6b-eec14ffaf130")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "lmc"
+				(path "/366b6b63-f50f-4704-98b3-a25deb9b26fa/eae2f1c3-9849-4004-ace3-e7424e3cdc34/a11fa67e-26bd-4e7e-be77-e56541e95d03"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 76.2)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e7f8a237-8f48-418f-853c-ca9ca3d3480b")
+		(property "Sheetname" "LED Power Control 2"
+			(at 127 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led_power_control.kicad_sch"
+			(at 127 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "LED_CATHODE_A" input
+			(at 152.4 80.01 0)
+			(uuid "b460db1b-5500-4c06-bc13-9500c5dd4583")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED_CATHODE_B" input
+			(at 152.4 85.09 0)
+			(uuid "b9dbca18-c547-44f1-a534-0a0bec4596b3")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM_A" input
+			(at 127 80.01 180)
+			(uuid "8fe70ded-32f6-4171-8e74-4a197b86346f")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM_B" input
+			(at 127 85.09 180)
 			(uuid "90c5109d-d9f3-47b8-930f-0e816dcbd405")
 			(effects
 				(font
@@ -1952,7 +2302,7 @@
 		)
 	)
 	(sheet
-		(at 127 113.03)
+		(at 127 125.73)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1968,7 +2318,7 @@
 		)
 		(uuid "f346726f-e69d-4297-b55a-ff807cd71a08")
 		(property "Sheetname" "LED Power Control 5"
-			(at 127 112.3184 0)
+			(at 127 125.0184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1977,16 +2327,17 @@
 			)
 		)
 		(property "Sheetfile" "led_power_control.kicad_sch"
-			(at 127 126.3146 0)
+			(at 127 139.0146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "LED_CATHODE_A" input
-			(at 152.4 116.84 0)
+			(at 152.4 129.54 0)
 			(uuid "c7912014-58c4-41f6-ba1b-b23f44ce9329")
 			(effects
 				(font
@@ -1996,7 +2347,7 @@
 			)
 		)
 		(pin "LED_CATHODE_B" input
-			(at 152.4 121.92 0)
+			(at 152.4 134.62 0)
 			(uuid "520eda7f-7b74-4a4b-8aac-5857f9715f59")
 			(effects
 				(font
@@ -2006,7 +2357,7 @@
 			)
 		)
 		(pin "PWM_A" input
-			(at 127 116.84 180)
+			(at 127 129.54 180)
 			(uuid "5964106c-dc85-41d7-8860-241dc50d4187")
 			(effects
 				(font
@@ -2016,7 +2367,7 @@
 			)
 		)
 		(pin "PWM_B" input
-			(at 127 121.92 180)
+			(at 127 134.62 180)
 			(uuid "c22bb0c3-4020-4623-930c-e5a45d763c2f")
 			(effects
 				(font

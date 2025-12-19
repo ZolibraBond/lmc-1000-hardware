@@ -566,6 +566,17 @@
 		)
 		(uuid "2d457ddf-2341-4a7d-b056-9305e3b4ae54")
 	)
+	(hierarchical_label "LED_CURRENT"
+		(shape input)
+		(at 191.77 148.59 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "30cccc0e-0879-4b1c-975c-d1f3accc10eb")
+	)
 	(hierarchical_label "MOTOR_DIR"
 		(shape output)
 		(at 181.61 39.37 0)
@@ -576,6 +587,17 @@
 			(justify left)
 		)
 		(uuid "31bf5468-6b19-4be9-ad7a-67ecc34a1c13")
+	)
+	(hierarchical_label "~{FAULT}"
+		(shape input)
+		(at 191.77 142.24 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "44f811dc-5d8c-43d6-9105-87834d4d1395")
 	)
 	(hierarchical_label "LED_PWM_3"
 		(shape output)
@@ -599,7 +621,7 @@
 		)
 		(uuid "534ac451-9137-4c53-aee7-48b6c117dbb0")
 	)
-	(hierarchical_label "{BUS_SENSING_ADC}"
+	(hierarchical_label "BUS_SENSING_ADC"
 		(shape input)
 		(at 181.61 33.02 0)
 		(effects
@@ -609,6 +631,17 @@
 			(justify left)
 		)
 		(uuid "54b5fbb4-033f-42ac-88e9-3fb2972f77a6")
+	)
+	(hierarchical_label "~{FAULT_RESET}"
+		(shape output)
+		(at 191.77 144.78 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "689a3566-f422-4ca6-a447-b886b564f891")
 	)
 	(hierarchical_label "H_BEAT"
 		(shape input)
@@ -664,6 +697,17 @@
 			(justify left)
 		)
 		(uuid "dd8a0141-1832-42a6-a825-926b20fc9459")
+	)
+	(hierarchical_label "CURRENT_LIMIT_SET"
+		(shape output)
+		(at 191.77 139.7 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "e2eac70e-3c3f-4f1d-bdfb-699ffe03884c")
 	)
 	(hierarchical_label "MOTOR_CURRENT"
 		(shape input)

@@ -259,7 +259,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 90.17) (xy 144.78 90.17)
+			(xy 129.54 83.82) (xy 144.78 83.82)
 		)
 		(stroke
 			(width 0)
@@ -289,7 +289,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 45.72) (xy 130.81 48.26)
+			(xy 130.81 40.64) (xy 130.81 43.18)
 		)
 		(stroke
 			(width 0)
@@ -459,7 +459,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 48.26) (xy 144.78 48.26)
+			(xy 130.81 43.18) (xy 144.78 43.18)
 		)
 		(stroke
 			(width 0)
@@ -489,7 +489,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 88.9) (xy 130.81 90.17)
+			(xy 129.54 82.55) (xy 129.54 83.82)
 		)
 		(stroke
 			(width 0)
@@ -695,7 +695,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 130.81 88.9 0)
+		(at 129.54 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -704,7 +704,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b2f7021-3440-413f-9d3c-ac28d8c230b3")
 		(property "Reference" "#PWR01602"
-			(at 130.81 92.71 0)
+			(at 129.54 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -713,7 +713,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 130.81 83.82 0)
+			(at 129.54 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -721,7 +721,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 88.9 0)
+			(at 129.54 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -730,7 +730,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 88.9 0)
+			(at 129.54 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -739,7 +739,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 130.81 88.9 0)
+			(at 129.54 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -761,7 +761,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 130.81 45.72 0)
+		(at 130.81 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -770,7 +770,7 @@
 		(fields_autoplaced yes)
 		(uuid "b838aefc-691d-446c-9e79-7a7cb332fcbe")
 		(property "Reference" "#PWR01601"
-			(at 130.81 49.53 0)
+			(at 130.81 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -779,7 +779,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 130.81 40.64 0)
+			(at 130.81 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -787,7 +787,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 45.72 0)
+			(at 130.81 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -796,7 +796,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 45.72 0)
+			(at 130.81 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -805,7 +805,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 130.81 45.72 0)
+			(at 130.81 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -826,8 +826,8 @@
 		)
 	)
 	(sheet
-		(at 144.78 43.18)
-		(size 26.67 21.59)
+		(at 144.78 40.64)
+		(size 26.67 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -842,7 +842,7 @@
 		)
 		(uuid "3584ebf0-8f62-4171-86f6-e82aac547e60")
 		(property "Sheetname" "Motor A Full Bridge"
-			(at 144.78 42.4684 0)
+			(at 144.78 39.9284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -880,7 +880,7 @@
 			)
 		)
 		(pin "POWER_INPUT" input
-			(at 144.78 48.26 180)
+			(at 144.78 43.18 180)
 			(uuid "280cb8db-7395-46c6-846f-dfcade046a6a")
 			(effects
 				(font
@@ -919,9 +919,29 @@
 				(justify right)
 			)
 		)
-		(pin "MOTOR_CURRENT" output
+		(pin "MOTOR_BRIDGE_CURRENT_L" output
+			(at 144.78 49.53 180)
+			(uuid "d27cdbf5-f3a3-423a-87a7-4d8df427d083")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOTOR_BRIDGE_CURRENT_R" output
+			(at 144.78 52.07 180)
+			(uuid "80269edb-af52-4ac2-9913-9ea680ccfd2d")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOTOR_INPUT_CURRENT" output
 			(at 144.78 54.61 180)
-			(uuid "758a13b6-f5fa-4590-8578-75e355d93efd")
+			(uuid "b1c9762e-e272-467b-981e-faa60a92363b")
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -938,8 +958,8 @@
 		)
 	)
 	(sheet
-		(at 144.78 85.09)
-		(size 26.67 21.59)
+		(at 144.78 81.28)
+		(size 26.67 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -954,7 +974,7 @@
 		)
 		(uuid "84a976a4-5618-4ba2-bd61-c39c205dd9e7")
 		(property "Sheetname" "Motor B Full Bridge"
-			(at 144.78 84.3784 0)
+			(at 144.78 80.5684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -972,7 +992,7 @@
 			)
 		)
 		(pin "POWER_INPUT" input
-			(at 144.78 90.17 180)
+			(at 144.78 83.82 180)
 			(uuid "2c8bd16d-cac6-4de8-aa30-a3c0a6812603")
 			(effects
 				(font
@@ -1031,9 +1051,29 @@
 				(justify right)
 			)
 		)
-		(pin "MOTOR_CURRENT" output
+		(pin "MOTOR_BRIDGE_CURRENT_L" output
+			(at 144.78 91.44 180)
+			(uuid "6001c6dc-cad1-4fd9-9785-5a0017181a15")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOTOR_BRIDGE_CURRENT_R" output
+			(at 144.78 93.98 180)
+			(uuid "9b580d95-99b5-49c0-9c68-3fb34bba68d9")
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOTOR_INPUT_CURRENT" output
 			(at 144.78 96.52 180)
-			(uuid "c7a705f6-4348-485a-94b5-16b28ce65fb6")
+			(uuid "025e2e27-6c06-4b81-9346-99b6e4cbe62e")
 			(effects
 				(font
 					(size 1.016 1.016)
